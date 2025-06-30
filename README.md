@@ -34,37 +34,36 @@ If you find our survey useful for your research, please consider citing the foll
 ## Contents
 
   - [📜 Papers](#-papers)
-      - [3. Latent CoT Reasoning](#3-latent-cot-reasoning)
-          - [3.1 Activation-based Recurrent Methods](#31-activation-based-recurrent-methods)
-              - [3.1.1 Architectural Recurrence](#311-architectural-recurrence)
-              - [3.1.2 Training-induced Recurrence](#312-training-induced-recurrence)
-              - [3.1.3 Training Strategies for Recurrent Reasoning](#313-training-strategies-for-recurrent-reasoning)
-              - [3.1.4 Applications and Capabilities](#314-applications-and-capabilities)
-          - [3.2 Hidden-state Methods](#32-temporal-hidden-state-methods)
-              - [3.2.1 Hidden-state based methods](#321-hidden-state-based-methods)
-              - [3.2.2 Optimization-based State Evolution](#322-optimization-based-state-evolution)
-              - [3.2.3 Training-induced Hidden-State Conversion](#323-training-induced-hidden-state-conversion)
-      - [4. Mechanistic Interpretability](#4--mechanistic-interpretability)
-          - [4.1 Do Layer Stacks Reflect Latent CoT?](#41-do-layer-stacks-reflect-latent-cot)
-          - [4.2 Mechanisms of Latent CoT in Layer Representation](#42-mechanisms-of-latent-cot-in-layer-representation)
-          - [4.3 Turing Completeness of Layer-Based Latent CoT](#43-turing-completeness-of-layer-based-latent-cot)
-      - [5. Towards Infinite-depth Reasoning](#5-towards-infinite-depth-reasoning)
-          - [5.1 Spatial Infinite Reasoning: Text Diffusion Models](#51-spatial-infinite-reasoning-text-diffusion-models)
-              - [5.1.1 Masked Diffusion Models](#511-masked-diffusion-models)
-              - [5.1.2 Chain-of-Thought Diffusion Models](#512-chain-of-thought-diffusion-models)
-              - [5.1.3 Hybrid Diffusion and Autoregressive Architectures](#513-hybrid-diffusion-and-autoregressive-architectures)
-          - [5.3 Towards an 'Infinitely Long' Optimiser Network](#53-towards-an-infinitely-long-optimiser-network)
-          - [5.4 Implicit Fixed-Point RNNs](#54-implicit-fixed-point-rnns)
-          - [5.7 Discussion](#57-discussion)
-    
+      - [Latent CoT Reasoning](#latent-cot-reasoning)
+          - [Activation-based Recurrent Methods](#activation-based-recurrent-methods)
+              - [Architectural Recurrence](#architectural-recurrence)
+              - [Training-induced Recurrence](#training-induced-recurrence)
+              - [Training Strategies for Recurrent Reasoning](#training-strategies-for-recurrent-reasoning)
+              - [Applications and Capabilities](#applications-and-capabilities)
+          - [Hidden-state Methods](#hidden-state-methods)
+              - [Hidden-state based methods](#hidden-state-based-methods)
+              - [Optimization-based State Evolution](#optimization-based-state-evolution)
+              - [Training-induced Hidden-State Conversion](#training-induced-hidden-state-conversion)
+      - [Mechanistic Interpretability](#mechanistic-interpretability)
+          - [Do Layer Stacks Reflect Latent CoT?](#do-layer-stacks-reflect-latent-cot)
+          - [Mechanisms of Latent CoT in Layer Representation](#mechanisms-of-latent-cot-in-layer-representation)
+          - [Turing Completeness of Layer-Based Latent CoT](#turing-completeness-of-layer-based-latent-cot)
+      - [Towards Infinite-depth Reasoning](#towards-infinite-depth-reasoning)
+          - [Spatial Infinite Reasoning: Text Diffusion Models](#spatial-infinite-reasoning-text-diffusion-models)
+              - [Masked Diffusion Models](#masked-diffusion-models)
+              - [Chain-of-Thought Diffusion Models](#chain-of-thought-diffusion-models)
+              - [Hybrid Diffusion and Autoregressive Architectures](#hybrid-diffusion-and-autoregressive-architectures)
+          - [Towards an 'Infinitely Long' Optimiser Network](#towards-an-infinitely-long-optimiser-network)
+          - [Implicit Fixed-Point RNNs](#implicit-fixed-point-rnns)
+          - [Discussion](#57-discussion)
 
 
 ## 📜 Papers
-### 3\. Latent CoT Reasoning
+### Latent CoT Reasoning
 
-#### 3.1 Activation-based Recurrent Methods
+#### Activation-based Recurrent Methods
 
-##### 3.1.1 Architectural Recurrence
+##### Architectural Recurrence
 1.  [**Universal transformers.**](https://arxiv.org/abs/1807.03819) *Dehghani, Mostafa, Gouws, Stephan, Vinyals, Oriol, Uszkoreit, Jakob, and Kaiser, Lukasz.* arXiv preprint arXiv:1807.03819 2018.
 2.  [**CoTFormer: A Chain-of-Thought Driven Architecture with Budget-Adaptive Computation Cost at Inference.**](https://arxiv.org/abs/2310.10845) *Mohtashami, Amirkeivan, Pagliardini, Matteo, and Jaggi, Martin.* arXiv preprint arXiv:2310.10845 2023.
 3.  [**Relaxed recursive transformers: Effective parameter sharing with layer-wise lora.**](https://arxiv.org/abs/2410.20672) *Bae, Sangmin, Fisch, Adam, Harutyunyan, Hrayr, Ji, Ziwei, Kim, Seungyeon, and Schuster, Tal.* arXiv preprint arXiv:2410.20672 2024.
@@ -72,7 +71,7 @@ If you find our survey useful for your research, please consider citing the foll
 5.  [**Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach.**](https://arxiv.org/abs/2502.05171) *Geiping, Jonas, McLeish, Sean, Jain, Neel, Kirchenbauer, John, Singh, Siddharth, Bartoldson, Brian R, Kailkhura, Bhavya, Bhatele, Abhinav, and Goldstein, Tom.* arXiv preprint arXiv:2502.05171 2025.
 6.  [**Pretraining Language Models to Ponder in Continuous Space.**](https://arxiv.org/abs/2505.20674) *Zeng, Boyi, Song, Shixiang, Huang, Siyuan, Wang, Yixuan, Li, He, He, Ziwei, Wang, Xinbing, Li, Zhiyu, and Lin, Zhouhan.* arXiv preprint arXiv:2505.20674 2025.
 
-##### 3.1.2 Training-induced Recurrence
+##### Training-induced Recurrence
 1.  [**Training large language models to reason in a continuous latent space.**](https://arxiv.org/abs/2412.06769) *Hao, Shibo, Sukhbaatar, Sainbayar, Su, DiJia, Li, Xian, Hu, Zhiting, Weston, Jason, and Tian, Yuandong.* arXiv preprint arXiv:2412.06769 2024.
 2.  [**Codi: Compressing chain-of-thought into continuous space via self-distillation.**](https://arxiv.org/abs/2502.21074) *Shen, Zhenyi, Yan, Hanqi, Zhang, Linhai, Hu, Zhanghao, Du, Yali, and He, Yulan.* arXiv preprint arXiv:2502.21074 2025.
 3.  [**Compressed chain of thought: Efficient reasoning through dense representations.**](https://arxiv.org/abs/2412.13171) *Cheng, Jeffrey, and Van Durme, Benjamin.* arXiv preprint arXiv:2412.13171 2024.
@@ -85,14 +84,14 @@ If you find our survey useful for your research, please consider citing the foll
 10.  [**Guiding Language Model Reasoning with Planning Tokens.**](https://openreview.net/forum?id=wi9IffRhVM) *Xinyi Wang, Lucas Caccia, Oleksiy Ostapenko, Xingdi Yuan, William Yang Wang, and Alessandro Sordoni.* First Conference on Language Modeling 2024.
 11.  [**Disentangling memory and reasoning ability in large language models.**](https://arxiv.org/abs/2411.13504) *Jin, Mingyu, Luo, Weidi, Cheng, Sitao, Wang, Xinyi, Hua, Wenyue, Tang, Ruixiang, Wang, William Yang, and Zhang, Yongfeng.* arXiv preprint arXiv:2411.13504 2024.
 
-##### 3.1.3 Training Strategies for Recurrent Reasoning
+##### Training Strategies for Recurrent Reasoning
 1.  [**On the inductive bias of stacking towards improving reasoning.**](#) *Saunshi, Nikunj, Karp, Stefani, Krishnan, Shankar, Miryoosefi, Sobhan, Jakkam Reddi, Sashank, and Kumar, Sanjiv.* Advances in Neural Information Processing Systems 2024.
 2.  [**Reasoning with latent thoughts: On the power of looped transformers.**](https://arxiv.org/abs/2502.17416) *Saunshi, Nikunj, Dikkala, Nishanth, Li, Zhiyuan, Kumar, Sanjiv, and Reddi, Sashank J.* arXiv preprint arXiv:2502.17416 2025.
 3.  [**From explicit cot to implicit cot: Learning to internalize cot step by step.**](https://arxiv.org/abs/2405.14838) *Deng, Yuntian, Choi, Yejin, and Shieber, Stuart.* arXiv preprint arXiv:2405.14838 2024.
 4.  [**Training large language models to reason in a continuous latent space.**](https://arxiv.org/abs/2412.06769) *Hao, Shibo, Sukhbaatar, Sainbayar, Su, DiJia, Li, Xian, Hu, Zhiting, Weston, Jason, and Tian, Yuandong.* arXiv preprint arXiv:2412.06769 2024.
 5.  [**Enhancing Auto-regressive Chain-of-Thought through Loop-Aligned Reasoning.**](https://arxiv.org/abs/2502.08482) *Yu, Qifan, He, Zhenyu, Li, Sijie, Zhou, Xun, Zhang, Jun, Xu, Jingjing, and He, Di.* arXiv preprint arXiv:2502.08482 2025.
 
-##### 3.1.4 Applications and Capabilities
+##### Applications and Capabilities
 1.  [**Can you learn an algorithm? generalizing from easy to hard problems with recurrent networks.**](#) *Schwarzschild, Avi, Borgnia, Eitan, Gupta, Arjun, Huang, Furong, Vishkin, Uzi, Goldblum, Micah, and Goldstein, Tom.* Advances in Neural Information Processing Systems 2021.
 2.  [**Looped transformers as programmable computers.**](#) *Giannou, Angeliki, Rajput, Shashank, Sohn, Jy-yong, Lee, Kangwook, Lee, Jason D, and Papailiopoulos, Dimitris.* International Conference on Machine Learning 2023.
 3.  [**Simulation of graph algorithms with looped transformers.**](https://arxiv.org/abs/2402.01107) *De Luca, Artur Back, and Fountoulakis, Kimon.* arXiv preprint arXiv:2402.01107 2024.
@@ -101,9 +100,9 @@ If you find our survey useful for your research, please consider citing the foll
 6.  [**Can looped transformers learn to implement multi-step gradient descent for in-context learning?.**](https://arxiv.org/abs/2410.08292) *Gatmiry, Khashayar, Saunshi, Nikunj, Reddi, Sashank J, Jegelka, Stefanie, and Kumar, Sanjiv.* arXiv preprint arXiv:2410.08292 2024.
 7.  [**Bypassing the exponential dependency: Looped transformers efficiently learn in-context by multi-step gradient descent.**](https://arxiv.org/abs/2410.11268) *Chen, Bo, Li, Xiaoyu, Liang, Yingyu, Shi, Zhenmei, and Song, Zhao.* arXiv preprint arXiv:2410.11268 2024.
 
-#### 3.2 Temporal Hidden-state Methods
+#### Temporal Hidden-state Methods
 
-##### 3.2.1 Hidden-state based methods
+##### Hidden-state based methods
 1.  [**Transformers are ssms: Generalized models and efficient algorithms through structured state space duality.**](https://arxiv.org/abs/2405.21060) *Dao, Tri, and Gu, Albert.* arXiv preprint arXiv:2405.21060 2024.
 2.  [**Gated linear attention transformers with hardware-efficient training.**](https://arxiv.org/abs/2312.06635) *Yang, Songlin, Wang, Bailin, Shen, Yikang, Panda, Rameswar, and Kim, Yoon.* arXiv preprint arXiv:2312.06635 2023.
 3.  [**Eagle and finch: Rwkv with matrix-valued states and dynamic recurrence.**](https://arxiv.org/abs/2404.05892) *Peng, Bo, Goldstein, Daniel, Anthony, Quentin, Albalak, Alon, Alcaide, Eric, Biderman, Stella, Cheah, Eugene, Ferdinan, Teddy, Hou, Haowen, Kazienko, Przemyslaw, and others.* arXiv preprint arXiv:2404.05892 2024.
@@ -111,7 +110,7 @@ If you find our survey useful for your research, please consider citing the foll
 5.  **Citation key not found:** `deltanet_citation`
 6.  [**Parallelizing linear transformers with the delta rule over sequence length.**](https://arxiv.org/abs/2406.06484) *Yang, Songlin, Wang, Bailin, Zhang, Yu, Shen, Yikang, and Kim, Yoon.* arXiv preprint arXiv:2406.06484 2024.
 
-##### 3.2.2 Optimization-based State Evolution
+##### Optimization-based State Evolution
 1.  [**Transformers are rnns: Fast autoregressive transformers with linear attention.**](#) *Katharopoulos, Angelos, Vyas, Apoorv, Pappas, Nikolaos, and Fleuret, Franc cois.* International conference on machine learning 2020.
 2.  [**Retentive network: A successor to transformer for large language models.**](https://arxiv.org/abs/2307.08621) *Sun, Yutao, Dong, Li, Huang, Shaohan, Ma, Shuming, Xia, Yuqing, Xue, Jilong, Wang, Jianyong, and Wei, Furu.* arXiv preprint arXiv:2307.08621 2023.
 3.  [**Gated linear attention transformers with hardware-efficient training.**](https://arxiv.org/abs/2312.06635) *Yang, Songlin, Wang, Bailin, Shen, Yikang, Panda, Rameswar, and Kim, Yoon.* arXiv preprint arXiv:2312.06635 2023.
@@ -127,16 +126,16 @@ If you find our survey useful for your research, please consider citing the foll
 13.  [**Atlas: Learning to optimally memorize the context at test time.**](https://arxiv.org/abs/2505.23735) *Behrouz, Ali, Li, Zeman, Kacham, Praneeth, Daliri, Majid, Deng, Yuan, Zhong, Peilin, Razaviyayn, Meisam, and Mirrokni, Vahab.* arXiv preprint arXiv:2505.23735 2025.
 14.  [**Soft Reasoning: Navigating Solution Spaces in Large Language Models through Controlled Embedding Exploration.**](https://arxiv.org/abs/2505.24688) *Zhu, Qinglin, Zhao, Runcong, Yan, Hanqi, He, Yulan, Chen, Yudong, and Gui, Lin.* arXiv preprint arXiv:2505.24688 2025.
 
-##### 3.2.3 Training-induced Hidden-State Conversion
+##### Training-induced Hidden-State Conversion
 1.  [**Transformers to ssms: Distilling quadratic knowledge to subquadratic models.**](#) *Bick, Aviv, Li, Kevin, Xing, Eric, Kolter, J Zico, and Gu, Albert.* Advances in Neural Information Processing Systems 2024.
 2.  [**Llamba: Scaling Distilled Recurrent Models for Efficient Language Processing.**](https://arxiv.org/abs/2502.14458) *Aviv Bick, Tobias Katsch, Nimit Sohoni, Arjun Desai, and Albert Gu.* arXiv preprint 2025.
 3.  [**Linearizing large language models.**](https://arxiv.org/abs/2405.06640) *Mercat, Jean, Vasiljevic, Igor, Keh, Sedrick, Arora, Kushal, Dave, Achal, Gaidon, Adrien, and Kollar, Thomas.* arXiv preprint arXiv:2405.06640 2024.
 4.  [**LoLCATs: On Low-Rank Linearizing of Large Language Models.**](https://arxiv.org/abs/2410.10254) *Zhang, Michael, Arora, Simran, Chalamala, Rahul, Wu, Alan, Spector, Benjamin, Singhal, Aaryan, Ramesh, Krithik, and R'e, Christopher.* arXiv preprint arXiv:2410.10254 2024.
 5.  [**Liger: Linearizing Large Language Models to Gated Recurrent Structures.**](https://arxiv.org/abs/2503.01496) *Lan, Disen, Sun, Weigao, Hu, Jiaxi, Du, Jusen, and Cheng, Yu.* arXiv preprint arXiv:2503.01496 2025.
 
-### 4\.  Mechanistic Interpretability
+### Mechanistic Interpretability
 
-#### 4.1 Do Layer Stacks Reflect Latent CoT?
+#### Do Layer Stacks Reflect Latent CoT?
 1.  [**Openai o1 system card.**](https://arxiv.org/abs/2412.16720) *Jaech, Aaron, Kalai, Adam, Lerer, Adam, Richardson, Adam, El-Kishky, Ahmed, Low, Aiden, Helyar, Alec, Madry, Aleksander, Beutel, Alex, Carney, Alex, and others.* arXiv preprint arXiv:2412.16720 2024.
 2.  [**Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning.**](https://arxiv.org/abs/2501.12948) *Guo, Daya, Yang, Dejian, Zhang, Haowei, Song, Junxiao, Zhang, Ruoyu, Xu, Runxin, Zhu, Qihao, Ma, Shirong, Wang, Peiyi, Bi, Xiao, and others.* arXiv preprint arXiv:2501.12948 2025.
 3.  [**Do LLMs Really Think Step-by-step In Implicit Reasoning?.**](https://arxiv.org/abs/2411.15862) *Yu, Yijiong.* arXiv preprint arXiv:2411.15862 2024.
@@ -148,7 +147,7 @@ If you find our survey useful for your research, please consider citing the foll
 9.  [**Towards understanding how transformer perform multi-step reasoning with matching operation.**](#) *Wang, Zhiwei, Wang, Yunji, Zhang, Zhongwang, Zhou, Zhangchen, Jin, Hui, Hu, Tianyang, Sun, Jiacheng, Li, Zhenguo, Zhang, Yaoyu, and Xu, Zhi-Qin John.* arXiv e-prints 2024.
 10.  [**Back attention: Understanding and enhancing multi-hop reasoning in large language models.**](https://arxiv.org/abs/2502.10835) *Yu, Zeping, Belinkov, Yonatan, and Ananiadou, Sophia.* arXiv preprint arXiv:2502.10835 2025.
 
-#### 4.2 Mechanisms of Latent CoT in Layer Representation
+#### Mechanisms of Latent CoT in Layer Representation
 1.  [**Investigating layer importance in large language models.**](https://arxiv.org/abs/2409.14381) *Zhang, Yang, Dong, Yanfei, and Kawaguchi, Kenji.* arXiv preprint arXiv:2409.14381 2024.
 2.  [**The Unreasonable Ineffectiveness of the Deeper Layers.**](https://arxiv.org/abs/2403.17887) *Andrey Gromov, Kushal Tirumala, Hassan Shapourian, Paolo Glorioso, and Daniel A. Roberts.* arXiv preprint arXiv:2403.17887 2024.
 3.  [**Understanding Layer Significance in LLM Alignment.**](https://arxiv.org/abs/2410.17875) *Shi, Guangyuan, Lu, Zexin, Dong, Xiaoyu, Zhang, Wenlong, Zhang, Xuanyu, Feng, Yujie, and Wu, Xiao-Ming.* arXiv preprint arXiv:2410.17875 2024.
@@ -181,7 +180,7 @@ If you find our survey useful for your research, please consider citing the foll
 30.  [**Grokked transformers are implicit reasoners: A mechanistic journey to the edge of generalization.**](https://arxiv.org/abs/2405.15071) *Wang, Boshi, Yue, Xiang, Su, Yu, and Sun, Huan.* arXiv preprint arXiv:2405.15071 2024.
 31.  [**Back attention: Understanding and enhancing multi-hop reasoning in large language models.**](https://arxiv.org/abs/2502.10835) *Yu, Zeping, Belinkov, Yonatan, and Ananiadou, Sophia.* arXiv preprint arXiv:2502.10835 2025.
 
-#### 4.3 Turing Completeness of Layer-Based Latent CoT
+#### Turing Completeness of Layer-Based Latent CoT
 1.  [**Attention is all you need.**](#) *Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Uszkoreit, Jakob, Jones, Llion, Gomez, Aidan N, Kaiser, Lukasz, and Polosukhin, Illia.* Advances in neural information processing systems 2017.
 2.  [**An outsidertextquotesingle s view of neural nets.**](#) *Jordan, Michael I..* Cognitive Science 1986.
 3.  **Citation key not found:** `Elman1990FindingStructure`
@@ -199,11 +198,11 @@ If you find our survey useful for your research, please consider citing the foll
 15.  [**On limitations of the transformer architecture.**](#) *Peng, Binghui, Narayanan, Srini, and Papadimitriou, Christos.* First Conference on Language Modeling 2024.
 16.  [**Looped transformers as programmable computers.**](#) *Giannou, Angeliki, Rajput, Shashank, Sohn, Jy-yong, Lee, Kangwook, Lee, Jason D, and Papailiopoulos, Dimitris.* International Conference on Machine Learning 2023.
 
-### 5\. Towards Infinite-depth Reasoning
+### Towards Infinite-depth Reasoning
 
-#### 5.1 Spatial Infinite Reasoning: Text Diffusion Models
+#### Spatial Infinite Reasoning: Text Diffusion Models
 
-##### 5.1.1 Masked Diffusion Models
+##### Masked Diffusion Models
 1.  [**Structured denoising diffusion models in discrete state-spaces.**](#) *Austin, Jacob, Johnson, Daniel D, Ho, Jonathan, Tarlow, Daniel, and Van Den Berg, Rianne.* Advances in neural information processing systems 2021.
 2.  [**Discrete diffusion modeling by estimating the ratios of the data distribution.**](#) *Lou, Aaron, Meng, Chenlin, and Ermon, Stefano.* Proceedings of the 41st International Conference on Machine Learning 2024.
 3.  [**Your absorbing discrete diffusion secretly models the conditional distributions of clean data.**](https://arxiv.org/abs/2406.03736) *Ou, Jingyang, Nie, Shen, Xue, Kaiwen, Zhu, Fengqi, Sun, Jiacheng, Li, Zhenguo, and Li, Chongxuan.* arXiv preprint arXiv:2406.03736 2024.
@@ -214,11 +213,11 @@ If you find our survey useful for your research, please consider citing the foll
 8.  [**TESS 2: A Large-Scale Generalist Diffusion Language Model.**](https://arxiv.org/abs/2502.13917) *Tae, Jaesung, Ivison, Hamish, Kumar, Sachin, and Cohan, Arman.* arXiv preprint arXiv:2502.13917 2025.
 9.  [**Large Language Diffusion Models.**](#) *Nie, Shen, Zhu, Fengqi, You, Zebin, Zhang, Xiaolu, Ou, Jingyang, Hu, Jun, ZHOU, JUN, Lin, Yankai, Wen, Ji-Rong, and Li, Chongxuan.* ICLR 2025 Workshop on Deep Generative Model in Machine Learning: Theory, Principle and Efficacy 2025.
 
-##### 5.1.2 Chain-of-Thought Diffusion Models
+##### Chain-of-Thought Diffusion Models
 1.  [**Diffusion of Thoughts: Chain-of-Thought Reasoning in Diffusion Language Models.**](https://arxiv.org/abs/2402.07754) *Jiacheng Ye, Shansan Gong, Liheng Chen, Lin Zheng, Jiahui Gao, Han Shi, Chuan Wu, Xin Jiang, Zhenguo Li, Wei Bi, and Lingpeng Kong.* 2024.
 2.  [**Beyond Autoregression: Discrete Diffusion for Complex Reasoning and Planning.**](https://arxiv.org/abs/2410.14157) *Jiacheng Ye, Jiahui Gao, Shansan Gong, Lin Zheng, Xin Jiang, Zhenguo Li, and Lingpeng Kong.* 2025.
 
-##### 5.1.3 Hybrid Diffusion and Autoregressive Architectures
+##### Hybrid Diffusion and Autoregressive Architectures
 1.  [**Large Language Models to Diffusion Finetuning.**](https://arxiv.org/abs/2501.15781) *Cetin, Edoardo, Zhao, Tianyu, and Tang, Yujin.* arXiv preprint arXiv:2501.15781 2025.
 2.  [**Dream 7B.**](https://hkunlp.github.io/blog/2025/dream) *Ye, Jiacheng, Xie, Zhihui, Zheng, Lin, Gao, Jiahui, Wu, Zirui, Jiang, Xin, Li, Zhenguo, and Kong, Lingpeng.* 2025.
 3.  [**Scaling Diffusion Language Models via Adaptation from Autoregressive Models.**](https://openreview.net/forum?id=j1tSLYKwg8) *Shansan Gong, Shivam Agarwal, Yizhe Zhang, Jiacheng Ye, Lin Zheng, Mukai Li, Chenxin An, Peilin Zhao, Wei Bi, Jiawei Han, Hao Peng, and Lingpeng Kong.* The Thirteenth International Conference on Learning Representations 2025.
@@ -234,16 +233,16 @@ If you find our survey useful for your research, please consider citing the foll
 13.  [**TESS 2: A Large-Scale Generalist Diffusion Language Model.**](https://arxiv.org/abs/2502.13917) *Tae, Jaesung, Ivison, Hamish, Kumar, Sachin, and Cohan, Arman.* arXiv preprint arXiv:2502.13917 2025.
 
 
-#### 5.3 Towards an 'Infinitely Long' Optimiser Network
+#### Towards an 'Infinitely Long' Optimiser Network
 1.  [**Leave no context behind: Efficient infinite context transformers with infini-attention.**](https://arxiv.org/abs/2404.07143) *Munkhdalai, Tsendsuren, Faruqui, Manaal, and Gopal, Siddharth.* arXiv preprint arXiv:2404.07143 2024.
 2.  [**Learning to (learn at test time): Rnns with expressive hidden states.**](https://arxiv.org/abs/2407.04620) *Sun, Yu, Li, Xinhao, Dalal, Karan, Xu, Jiarui, Vikram, Arjun, Zhang, Genghan, Dubois, Yann, Chen, Xinlei, Wang, Xiaolong, Koyejo, Sanmi, and others.* arXiv preprint arXiv:2407.04620 2024.
 3.  [**Titans: Learning to memorize at test time.**](https://arxiv.org/abs/2501.00663) *Behrouz, Ali, Zhong, Peilin, and Mirrokni, Vahab.* arXiv preprint arXiv:2501.00663 2024.
 4.  [**Atlas: Learning to optimally memorize the context at test time.**](https://arxiv.org/abs/2505.23735) *Behrouz, Ali, Li, Zeman, Kacham, Praneeth, Daliri, Majid, Deng, Yuan, Zhong, Peilin, Razaviyayn, Meisam, and Mirrokni, Vahab.* arXiv preprint arXiv:2505.23735 2025.
 
-#### 5.4 Implicit Fixed‑Point RNNs
+#### Implicit Fixed‑Point RNNs
 1.  [**Implicit Language Models are RNNs: Balancing Parallelization and Expressivity.**](https://arxiv.org/abs/2502.07827) *Sch"one, Mark, Rahmani, Babak, Kremer, Heiner, Falck, Fabian, Ballani, Hitesh, and Gladrow, Jannes.* arXiv preprint arXiv:2502.07827 2025.
 
-#### 5.7 Discussion
+#### Discussion
 1.  [**A survey of diffusion models in natural language processing.**](https://arxiv.org/abs/2305.14671) *Zou, Hao, Kim, Zae Myung, and Kang, Dongyeop.* arXiv preprint arXiv:2305.14671 2023.
 2.  [**Large Language Diffusion Models.**](#) *Nie, Shen, Zhu, Fengqi, You, Zebin, Zhang, Xiaolu, Ou, Jingyang, Hu, Jun, ZHOU, JUN, Lin, Yankai, Wen, Ji-Rong, and Li, Chongxuan.* ICLR 2025 Workshop on Deep Generative Model in Machine Learning: Theory, Principle and Efficacy 2025.
 3.  [**Infinity: Scaling bitwise autoregressive modeling for high-resolution image synthesis.**](https://arxiv.org/abs/2412.04431) *Han, Jian, Liu, Jinlai, Jiang, Yi, Yan, Bin, Zhang, Yuqi, Yuan, Zehuan, Peng, Bingyue, and Liu, Xiaobing.* arXiv preprint arXiv:2412.04431 2024.
