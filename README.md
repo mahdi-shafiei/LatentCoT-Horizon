@@ -40,7 +40,7 @@ If you find our survey useful for your research, please consider citing the foll
               - [Training-induced Recurrence](#training-induced-recurrence)
               - [Training Strategies for Recurrent Reasoning](#training-strategies-for-recurrent-reasoning)
               - [Applications and Capabilities](#applications-and-capabilities)
-          - [Hidden-state Methods](#hidden-state-methods)
+          - [Temporal Hidden-state Methods](#temporal-hidden-state-methods)
               - [Hidden-state based methods](#hidden-state-based-methods)
               - [Optimization-based State Evolution](#optimization-based-state-evolution)
               - [Training-induced Hidden-State Conversion](#training-induced-hidden-state-conversion)
@@ -54,8 +54,8 @@ If you find our survey useful for your research, please consider citing the foll
               - [Chain-of-Thought Diffusion Models](#chain-of-thought-diffusion-models)
               - [Hybrid Diffusion and Autoregressive Architectures](#hybrid-diffusion-and-autoregressive-architectures)
           - [Towards an 'Infinitely Long' Optimiser Network](#towards-an-infinitely-long-optimiser-network)
-          - [Implicit Fixed-Point RNNs](#implicit-fixed-point-rnns)
-          - [Discussion](#57-discussion)
+          - [Implicit Fixed Point RNNs](#implicit-fixed-point-rnns)
+          - [Discussion](#discussion)
 
 
 ## 📜 Papers
@@ -239,7 +239,7 @@ If you find our survey useful for your research, please consider citing the foll
 3.  [**Titans: Learning to memorize at test time.**](https://arxiv.org/abs/2501.00663) *Behrouz, Ali, Zhong, Peilin, and Mirrokni, Vahab.* arXiv preprint arXiv:2501.00663 2024.
 4.  [**Atlas: Learning to optimally memorize the context at test time.**](https://arxiv.org/abs/2505.23735) *Behrouz, Ali, Li, Zeman, Kacham, Praneeth, Daliri, Majid, Deng, Yuan, Zhong, Peilin, Razaviyayn, Meisam, and Mirrokni, Vahab.* arXiv preprint arXiv:2505.23735 2025.
 
-#### Implicit Fixed‑Point RNNs
+#### Implicit Fixed Point RNNs
 1.  [**Implicit Language Models are RNNs: Balancing Parallelization and Expressivity.**](https://arxiv.org/abs/2502.07827) *Sch"one, Mark, Rahmani, Babak, Kremer, Heiner, Falck, Fabian, Ballani, Hitesh, and Gladrow, Jannes.* arXiv preprint arXiv:2502.07827 2025.
 
 #### Discussion
