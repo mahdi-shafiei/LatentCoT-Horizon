@@ -1,4 +1,4 @@
-# LatentCOT-Horizon
+# LatentCoT-Horizon
 
 
 <div align="center">
