@@ -67,8 +67,11 @@ If you find our survey useful for your research, please consider citing the foll
 - [👍 Acknowledgement](#-acknowledgement)
 - [♥️ Contributors](#️-contributors)
 
+
 ## 📜 Papers
 ### 🧠 Latent CoT Reasoning
+
+___
 
 #### 🔄 Activation-based Recurrent Methods
 
@@ -123,6 +126,8 @@ If you find our survey useful for your research, please consider citing the foll
 | **Bypassing the exponential dependency: Looped transformers efficiently learn in-context by multi-step gradient descent** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.11268) |
 | **Disentangling memory and reasoning ability in large language models** | arXiv | Nov 2024 | [Paper](https://arxiv.org/abs/2411.13504) |
 
+___
+
 #### ⏳ Temporal Hidden-state Methods
 
 ##### 📦 Hidden-state based methods
@@ -165,6 +170,8 @@ If you find our survey useful for your research, please consider citing the foll
 
 ### 🔬 Mechanistic Interpretability
 
+___
+
 #### 🧐 Do Layer Stacks Reflect Latent CoT?
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
@@ -179,6 +186,7 @@ If you find our survey useful for your research, please consider citing the foll
 | **Reasoning with latent thoughts: On the power of looped transformers** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.17416) |
 | **A little depth goes a long way: The expressive power of log-depth transformers** | arXiv | Mar 2025 | [Paper](https://arxiv.org/abs/2503.03961) |
 | **Latent Chain-of-Thought? Decoding the Depth-Recurrent Transformer** | arXiv | Jul 2025 | [Paper](https://arxiv.org/pdf/2507.02199) - [Code](https://github.com/wenquanlu/huginn-latent-cot) |
+___
 
 #### 🛠️ Mechanisms of Latent CoT in Layer Representation
 | Title | Venue | Date | Links |
@@ -214,6 +222,7 @@ If you find our survey useful for your research, please consider citing the foll
 | **Unpacking Robustness in Inflectional Languages: Adversarial Evaluation and Mechanistic Insights** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.07856) |
 | **Do Language Models Use Their Depth Efficiently?** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.13898) - [Code](https://github.com/robertcsordas/depth_efficiency) |
 | **Void in Language Models** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.14467) |
+___
 
 #### 💻 Turing Completeness of Layer-Based Latent CoT
 | Title | Venue | Date | Links |
@@ -236,6 +245,8 @@ If you find our survey useful for your research, please consider citing the foll
 | **Constant Bit-size Transformers Are Turing Complete** | arXiv | Jun 2025 | [Paper](https://arxiv.org/abs/2506.12027) |
 
 ### ♾️ Towards Infinite-depth Reasoning
+
+___
 
 #### 🌀 Spatial Infinite Reasoning: Text Diffusion Models
 
@@ -274,6 +285,7 @@ If you find our survey useful for your research, please consider citing the foll
 | **Mercury: Ultra-Fast Language Models Based on Diffusion** | arXiv | Jun 2025 | [Paper](https://arxiv.org/abs/2506.18206) |
 | **Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities** | Technical Report | Jun 2025 | [Paper](https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf) |
 
+___
 
 #### 🕸️ Towards an 'Infinitely Long' Optimiser Network
 | Title | Venue | Date | Links |
@@ -283,10 +295,14 @@ If you find our survey useful for your research, please consider citing the foll
 | **Titans: Learning to memorize at test time** | arXiv | Jan 2025 | [Paper](https://arxiv.org/abs/2501.00663) |
 | **Atlas: Learning to optimally memorize the context at test time** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.23735) |
 
+___
+
 #### 📌 Implicit Fixed Point RNNs
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
 | **Implicit Language Models are RNNs: Balancing Parallelization and Expressivity** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.07827) |
+
+___
 
 #### 💬 Discussion
 | Title | Venue | Date | Links |
