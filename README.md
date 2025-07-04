@@ -89,16 +89,16 @@ ___
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
 | **Think before you speak: Training Language Models With Pause Tokens** | ICLR 2024 | Oct 2023 | [Paper](https://arxiv.org/abs/2310.02226) |
-| **Guiding Language Model Reasoning with Planning Tokens** | CoLM 2024 | Feb 2024 | [Paper](https://arxiv.org/abs/2402.06634) - [Code](https://github.com/Xinyi-Wang-dot/Planning-Tokens) |
-| **Let's Think Dot by Dot: Hidden computation in transformer language models** | CoLM 2024 | May 2024 | [Paper](https://arxiv.org/abs/2405.04929) |
-| **Disentangling memory and reasoning ability in large language models** | arXiv | Nov 2024 | [Paper](https://arxiv.org/abs/2411.13504) |
-| **Training large language models to reason in a continuous latent space** | CoLM 2024 | Dec 2024 | [Paper](https://arxiv.org/abs/2412.06769) |
+| **Guiding Language Model Reasoning with Planning Tokens** | COLM 2024 | Oct 2023 | [Paper](https://arxiv.org/abs/2310.05707) - [Code](https://github.com/WANGXinyiLinda/planning_tokens) |
+| **Let's Think Dot by Dot: Hidden computation in transformer language models** | COLM 2024 | Apr 2024 | [Paper](https://arxiv.org/abs/2404.15758) - [Code](https://github.com/JacobPfau/fillerTokens) |
+| **Disentangling memory and reasoning ability in large language models** | ACL 2025 (main) | Nov 2024 | [Paper](https://arxiv.org/abs/2411.13504) - [Code](https://github.com/MingyuJ666/Disentangling-Memory-and-Reasoning) |
+| **Training large language models to reason in a continuous latent space** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.06769) - [Code](https://github.com/facebookresearch/coconut) |
 | **Compressed chain of thought: Efficient reasoning through dense representations** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.13171) |
-| **Token Assorted: Mixing Latent and Text Tokens for Improved Language Model Reasoning** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.03275) - [Code](https://github.com/LUMIA-Group/Token-Assorted) |
-| **Lightthinker: Thinking step-by-step compression** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.15589) - [Code](https://github.com/zjukg/LightThinker) |
-| **Codi: Compressing chain-of-thought into continuous space via self-distillation** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.21074) |
+| **Token Assorted: Mixing Latent and Text Tokens for Improved Language Model Reasoning** | ICML 2025 | Feb 2025 | [Paper](https://arxiv.org/abs/2502.03275) |
+| **Lightthinker: Thinking step-by-step compression** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.15589) - [Code](https://github.com/zjunlp/LightThinker) |
+| **Codi: Compressing chain-of-thought into continuous space via self-distillation** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.21074) - [Code](https://github.com/guanziju/Open_CODI) |
 | **System-1.5 Reasoning: Traversal in Language and Latent Spaces with Dynamic Shortcuts** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.18962) |
-| **Parallel Continuous Chain-of-Thought with Jacobi Iteration** | arXiv | Jun 2025 | [Paper](https://arxiv.org/abs/2506.18582) |
+| **Parallel Continuous Chain-of-Thought with Jacobi Iteration** | arXiv | Jun 2025 | [Paper](https://arxiv.org/abs/2506.18582) - [Code](https://github.com/whyNLP/PCCoT) |
 
 ##### 🎯 Training Strategies for Recurrent Reasoning
 
