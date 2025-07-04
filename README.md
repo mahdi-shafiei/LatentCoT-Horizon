@@ -38,9 +38,6 @@ If you find our survey useful for your research, please consider citing the foll
 
 ## 💼 Contents
 
-- [📑 Citation](#-citation)
-- [📣 Update News](#-update-news)
-- [💼 Contents](#-contents)
 - [📜 Papers](#-papers)
   - [🧠 Latent CoT Reasoning](#-latent-cot-reasoning)
     - [🔄 Activation-based Recurrent Methods](#-activation-based-recurrent-methods)
