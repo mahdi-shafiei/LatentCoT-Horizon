@@ -161,6 +161,7 @@ If you find our survey useful for your research, please consider citing the foll
 | **LoLCATs: On Low-Rank Linearizing of Large Language Models** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.10254) |
 | **Llamba: Scaling Distilled Recurrent Models for Efficient Language Processing** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.14458) - [Code](https://github.com/avivbick/llamba) |
 | **Liger: Linearizing Large Language Models to Gated Recurrent Structures** | arXiv | Mar 2025 | [Paper](https://arxiv.org/abs/2503.01496) |
+| **Flexible Language Modeling in Continuous Space with Transformer-based Autoregressive Flows** | arXiv | Jul 2025 | [Paper](https://arxiv.org/pdf/2507.00425) |
 
 ### 🔬 Mechanistic Interpretability
 
@@ -177,6 +178,7 @@ If you find our survey useful for your research, please consider citing the foll
 | **How Do LLMs Perform Two-Hop Reasoning in Context?** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.13913) |
 | **Reasoning with latent thoughts: On the power of looped transformers** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.17416) |
 | **A little depth goes a long way: The expressive power of log-depth transformers** | arXiv | Mar 2025 | [Paper](https://arxiv.org/abs/2503.03961) |
+| **Latent Chain-of-Thought? Decoding the Depth-Recurrent Transformer** | arXiv | Jul 2025 | [Paper](https://arxiv.org/pdf/2507.02199) - [Code](https://github.com/wenquanlu/huginn-latent-cot) |
 
 #### 🛠️ Mechanisms of Latent CoT in Layer Representation
 | Title | Venue | Date | Links |
