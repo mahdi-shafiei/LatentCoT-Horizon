@@ -94,10 +94,12 @@ ___
 | **Disentangling memory and reasoning ability in large language models** | ACL 2025 (main) | Nov 2024 | [Paper](https://arxiv.org/abs/2411.13504) - [Code](https://github.com/MingyuJ666/Disentangling-Memory-and-Reasoning) |
 | **Training large language models to reason in a continuous latent space** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.06769) - [Code](https://github.com/facebookresearch/coconut) |
 | **Compressed chain of thought: Efficient reasoning through dense representations** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.13171) |
+| **Efficient Reasoning with Hidden Thinking** | arXiv | Jan 2025 | [Paper](https://arxiv.org/pdf/2501.19201) - [Code](https://github.com/shawnricecake/Heima) |
 | **Token Assorted: Mixing Latent and Text Tokens for Improved Language Model Reasoning** | ICML 2025 | Feb 2025 | [Paper](https://arxiv.org/abs/2502.03275) |
 | **Lightthinker: Thinking step-by-step compression** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.15589) - [Code](https://github.com/zjunlp/LightThinker) |
 | **Codi: Compressing chain-of-thought into continuous space via self-distillation** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.21074) - [Code](https://github.com/guanziju/Open_CODI) |
 | **System-1.5 Reasoning: Traversal in Language and Latent Spaces with Dynamic Shortcuts** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.18962) |
+| **Machine Mental Imagery: Empower Multimodal Reasoning with Latent Visual Tokens** | arXiv | Jun 2025 | [Paper](https://www.arxiv.org/abs/2506.17218) - [Code](https://github.com/UMass-Embodied-AGI/Mirage) |
 | **Parallel Continuous Chain-of-Thought with Jacobi Iteration** | arXiv | Jun 2025 | [Paper](https://arxiv.org/abs/2506.18582) - [Code](https://github.com/whyNLP/PCCoT) |
 
 ##### 🎯 Training Strategies for Recurrent Reasoning
@@ -208,6 +210,7 @@ ___
 | **Investigating layer importance in large language models** | arXiv | Sep 2024 | [Paper](https://arxiv.org/abs/2409.14381) |
 | **Unifying and Verifying Mechanistic Interpretations: A Case Study with Group Operations** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.07476) - [Code](https://github.com/willy-wu/unified_circuits) |
 | **Understanding Layer Significance in LLM Alignment** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.17875) |
+| **Latent Space Chain-of-Embedding Enables Output-free LLM Self-Evaluation** | ICLR 2025 | Oct 2024 | [Paper](https://arxiv.org/abs/2410.13640) - [Code](https://github.com/Alsace08/Chain-of-Embedding) |
 | **Does representation matter? exploring intermediate layers in large language models** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.09563) |
 | **Layer by Layer: Uncovering Hidden Representations in Language Models** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.02013) |
 | **Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.05171) - [Code](https://github.com/JonasGeiping/recurrent-pretraining) |
