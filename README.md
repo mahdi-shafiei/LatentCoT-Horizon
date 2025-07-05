@@ -296,11 +296,11 @@ ___
 ##### 🧬 Hybrid AR-Diffusion Models
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
-| **Dream 7B: A Diffusion-based Autoregressive Model for Text Generation** | arXiv | Oct 2024 | [Paper](https://hkunlp.github.io/blog/2025/dream/) - [Project](https://github.com/HKUNLP/Dream) |
-| **Large Language Models to Diffusion Finetuning** | arXiv | Jan 2025 | [Paper](https://arxiv.org/abs/2501.15781) |
-| **Scaling Diffusion Language Models via Adaptation from Autoregressive Models** | ICLR 2025 | May 2025 | [Paper](https://arxiv.org/pdf/2410.17891) - [Project](https://github.com/HKUNLP/DiffuLLaMA) |
+| **Scaling Diffusion Language Models via Adaptation from Autoregressive Models** | ICLR 2025 | Oct 2024 | [Paper](https://arxiv.org/pdf/2410.17891) - [Project](https://github.com/HKUNLP/DiffuLLaMA) |
+| **Large Language Models to Diffusion Finetuning** | ICML 2025 | Jan 2025 | [Paper](https://arxiv.org/abs/2501.15781) - [Code](https://github.com/SakanaAI/L2D)|
+| **Dream 7B: a large diffusion language model** | Blog | Apr 2025 | [Paper](https://hkunlp.github.io/blog/2025/dream/) - [Code](https://github.com/HKUNLP/Dream) |
 | **Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities** | Technical Report | May 2025 | [Paper](https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf) |
-| **Mercury: Ultra-Fast Language Models Based on Diffusion** | arXiv | June 2025 | [Paper](https://arxiv.org/pdf/2506.17298) |
+| **Mercury: Ultra-Fast Language Models Based on Diffusion** | arXiv | June 2025 | [Paper](https://arxiv.org/pdf/2506.17298) - [Page](https://platform.inceptionlabs.ai/) |
 
 ___
 
