@@ -38,6 +38,9 @@ If you find our survey useful for your research, please consider citing the foll
 
 ## 💼 Contents
 
+- [📑 Citation](#-citation)
+- [📣 Update News](#-update-news)
+- [💼 Contents](#-contents)
 - [📜 Papers](#-papers)
   - [🧠 Latent CoT Reasoning](#-latent-cot-reasoning)
     - [🔄 Activation-based Recurrent Methods](#-activation-based-recurrent-methods)
@@ -55,9 +58,10 @@ If you find our survey useful for your research, please consider citing the foll
     - [💻 Turing Completeness of Layer-Based Latent CoT](#-turing-completeness-of-layer-based-latent-cot)
   - [♾️ Towards Infinite-depth Reasoning](#️-towards-infinite-depth-reasoning)
     - [🌀 Spatial Infinite Reasoning: Text Diffusion Models](#-spatial-infinite-reasoning-text-diffusion-models)
-      - [⬛ Masked Diffusion Models](#-masked-diffusion-models)
-      - [🔗 Chain-of-Thought Diffusion Models](#-chain-of-thought-diffusion-models)
-      - [🧬 Hybrid Diffusion and Autoregressive Architectures](#-hybrid-diffusion-and-autoregressive-architectures)
+      - [⬛ Masked Diffusion Models (Temporal-only)](#-masked-diffusion-models-temporal-only)
+      - [⬛ Masked Diffusion Models (With Cache)](#-masked-diffusion-models-with-cache)
+      - [🔗 Embedding-based Diffusion Models](#-embedding-based-diffusion-models)
+      - [🧬 Hybrid AR-Diffusion Models](#-hybrid-ar-diffusion-models)
     - [🕸️ Towards an 'Infinitely Long' Optimiser Network](#️-towards-an-infinitely-long-optimiser-network)
     - [📌 Implicit Fixed Point RNNs](#-implicit-fixed-point-rnns)
     - [💬 Discussion](#-discussion)
@@ -250,40 +254,53 @@ ___
 
 #### 🌀 Spatial Infinite Reasoning: Text Diffusion Models
 
-##### ⬛ Masked Diffusion Models
+##### ⬛ Masked Diffusion Models (Temporal-only)
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
 | **Structured denoising diffusion models in discrete state-spaces** | NeurIPS 2021 | Jul 2021 | [Paper](https://arxiv.org/abs/2107.03006) |
-| **Discrete diffusion modeling by estimating the ratios of the data distribution** | ICML 2024 | Feb 2024 | [Paper](https://arxiv.org/abs/2402.04690) |
+| **Discrete diffusion modeling by estimating the ratios of the data distribution** | ICML 2024 | June 2024 | [Paper](https://arxiv.org/pdf/2310.16834) |
 | **Your absorbing discrete diffusion secretly models the conditional distributions of clean data** | arXiv | Jun 2024 | [Paper](https://arxiv.org/abs/2406.03736) |
-| **Learning Iterative Reasoning through Energy Diffusion** | ICML 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2406.05928) - [Project](https://yilundu.github.io/energy-diffusion/) |
-| **Simplified and generalized masked diffusion for discrete data** | NeurIPS 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2406.18242) |
+| **Learning Iterative Reasoning through Energy Diffusion** | ICML 2024 | Jun 2024 | [Paper](https://arxiv.org/pdf/2406.11179) - [Project](https://energy-based-model.github.io/ired) |
+| **Simplified and generalized masked diffusion for discrete data** | NeurIPS 2024 | Jun 2024 | [Paper](https://arxiv.org/pdf/2406.04329) -[Project](https://github.com/google-deepmind/md4) |
 | **Simple and effective masked diffusion language models** | NeurIPS 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2406.19509) - [Code](https://github.com/ssahoo04/MDLM) |
-| **Scaling up Masked Diffusion Models on Text** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.18514) |
-| **TESS 2: A Large-Scale Generalist Diffusion Language Model** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.13917) |
-| **Large Language Diffusion Models** | ICLR 2025 Workshop | Feb 2025 | [Paper](https://arxiv.org/abs/2502.14920) - [Project](https://llm-diffusion.github.io/) |
+| **Scaling up Masked Diffusion Models on Text** | arXiv | Oct 2024 | [Paper](https://arxiv.org/pdf/2406.07524) - [Project](https://s-sahoo.com/mdlm) |
+| **Mmada: Multimodal large diffusion language models** | arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.15809) - [Project](https://github.com/Gen-Verse/MMaDA/) |
 
-##### 🔗 Chain-of-Thought Diffusion Models
+##### ⬛ Masked Diffusion Models (With Cache)
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
-| **Diffusion of Thoughts: Chain-of-Thought Reasoning in Diffusion Language Models** | ICLR 2024 | Feb 2024 | [Paper](https://arxiv.org/abs/2402.07754) - [Code](https://github.com/HKU-BALI/Diffusion-of-Thoughts) |
-| **Beyond Autoregression: Discrete Diffusion for Complex Reasoning and Planning** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.14157) - [Code](https://github.com/HKU-BALI/D2P) |
+| **Diffusion of Thought: Chain-of-Thought Reasoning in Diffusion Language Models** | ICLR 2024 | Feb 2024 | [Paper](https://arxiv.org/abs/2402.07754) - [Project](https://github.com/HKUNLP/diffusion-of-thoughts) |
+| **Large Language Diffusion Models** | ICLR 2025 Workshop | Feb 2025 | [Paper](https://arxiv.org/pdf/2502.09992) - [Project](https://ml-gsai.github.io/LLaDA-demo/) |
+| **Beyond Autoregression: Discrete Diffusion for Complex Reasoning and Planning** | ICLR 2025 | Feb 2025 | [Paper](https://arxiv.org/pdf/2410.14157) - [Project](https://github.com/HKUNLP/diffusion-vs-ar) |
+| **dKV-Cache: The Cache for Diffusion Language Models** | arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.15781) - [Project](https://github.com/horseee/dKV-Cache) |
+| **dLLM-Cache: Accelerating Diffusion Large Language Models with Adaptive Caching** | arXiv | May 2025 | [Paper](https://www.arxiv.org/pdf/2506.06295) - [Project](https://github.com/maomaocun/dLLM-Cache) |
+| **Reinforcing the Diffusion Chain of Lateral Thought with Diffusion Language Models** | arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.10446) |
+| **LLaDA 1.5: Variance-Reduced Preference Optimization for Large Language Diffusion Models** | arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.19223) - [Project](https://ml-gsai.github.io/LLaDA-1.5-Demo/) |
+| **d1: Scaling Reasoning in Diffusion Large Language Models via Reinforcement Learning** | arXiv | June 2025 | [Paper](https://arxiv.org/pdf/2504.12216) - [Project](https://dllm-reasoning.github.io/) |
 
-##### 🧬 Hybrid Diffusion and Autoregressive Architectures
+
+##### 🔗 Embedding-based Diffusion Models
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
-| **Diffusion of Thoughts: Chain-of-Thought Reasoning in Diffusion Language Models** | ICLR 2024 | Feb 2024 | [Paper](https://arxiv.org/abs/2402.07754) - [Code](https://github.com/HKU-BALI/Diffusion-of-Thoughts) |
-| **Learning Iterative Reasoning through Energy Diffusion** | ICML 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2406.05928) - [Project](https://yilundu.github.io/energy-diffusion/) |
-| **Simple and effective masked diffusion language models** | NeurIPS 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2406.19509) - [Code](https://github.com/ssahoo04/MDLM) |
-| **Beyond Autoregression: Discrete Diffusion for Complex Reasoning and Planning** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.14157) - [Code](https://github.com/HKU-BALI/D2P) |
-| **Dream 7B: A Diffusion-based Autoregressive Model for Text Generation** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.15539) - [Project](https://hkunlp.github.io/blog/2025/dream) |
-| **Scaling Diffusion Language Models via Adaptation from Autoregressive Models** | ICLR 2025 | Oct 2024 | [Paper](https://arxiv.org/abs/2410.18433) |
-| **Scaling up Masked Diffusion Models on Text** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.18514) |
+| **Diffusion-LM Improves Controllable Text Generation** | NeurIPS 2022 | May 2022 | [Paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/1be5bc25d50895ee656b8c2d9eb89d6a-Paper-Conference.pdf) - [Project](https://github.com/XiangLi1999/Diffusion-LM.git) |
+| **Continuous diﬀusion for categorical data** | arXiv | Dec 2022 | [Paper](https://arxiv.org/pdf/2211.15089) |
+| **Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning** | ICLR 2023 | Mar 2023 | [Paper](https://arxiv.org/pdf/2208.04202) - [Project](https://github.com/google-research/pix2seq) |
+| **Likelihood-Based Diffusion Language Models** | NeurIPS 2023 | May 2023 | [Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/35b5c175e139bff5f22a5361270fce87-Paper-Conference.pdf) - [Project](https://github.com/igul222/plaid) |
+| **Diffusion of Thought: Chain-of-Thought Reasoning in Diffusion Language Models** | ICLR 2024 | Feb 2024 | [Paper](https://arxiv.org/pdf/2402.07754) - [Project](https://github.com/HKUNLP/diffusion-of-thoughts) |
+| **TESS: Text-to-Text Self-Conditioned Simplex Diffusion** | EACL 2024 | Feb 2024 | [Paper](https://arxiv.org/pdf/2305.08379) - [Project](https://github.com/allenai/tess-diffusion) |
+| **TESS 2: A Large-Scale Generalist Diffusion Language Model** | arXiv | Feb 2025 | [Paper](https://arxiv.org/pdf/2502.13917) |
+
+
+
+
+##### 🧬 Hybrid AR-Diffusion Models
+| Title | Venue | Date | Links |
+| --- | --- | --- | --- |
+| **Dream 7B: A Diffusion-based Autoregressive Model for Text Generation** | arXiv | Oct 2024 | [Paper](https://hkunlp.github.io/blog/2025/dream/) - [Project](https://github.com/HKUNLP/Dream) |
 | **Large Language Models to Diffusion Finetuning** | arXiv | Jan 2025 | [Paper](https://arxiv.org/abs/2501.15781) |
-| **TESS 2: A Large-Scale Generalist Diffusion Language Model** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.13917) |
-| **Large Language Diffusion Models** | ICLR 2025 Workshop | Feb 2025 | [Paper](https://arxiv.org/abs/2502.14920) - [Project](https://llm-diffusion.github.io/) |
-| **Mercury: Ultra-Fast Language Models Based on Diffusion** | arXiv | Jun 2025 | [Paper](https://arxiv.org/abs/2506.18206) |
-| **Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities** | Technical Report | Jun 2025 | [Paper](https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf) |
+| **Scaling Diffusion Language Models via Adaptation from Autoregressive Models** | ICLR 2025 | May 2025 | [Paper](https://arxiv.org/pdf/2410.17891) - [Project](https://github.com/HKUNLP/DiffuLLaMA) |
+| **Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities** | Technical Report | May 2025 | [Paper](https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf) |
+| **Mercury: Ultra-Fast Language Models Based on Diffusion** | arXiv | June 2025 | [Paper](https://arxiv.org/pdf/2506.17298) |
 
 ___
 
@@ -309,7 +326,7 @@ ___
 | --- | --- | --- | --- |
 | **A survey of diffusion models in natural language processing** | TACL | May 2023 | [Paper](https://arxiv.org/abs/2305.14671) |
 | **Infinity: Scaling bitwise autoregressive modeling for high-resolution image synthesis** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.04431) |
-| **Large Language Diffusion Models** | ICLR 2025 Workshop | Feb 2025 | [Paper](https://arxiv.org/abs/2502.14920) - [Project](https://llm-diffusion.github.io/) |
+| **Large Language Diffusion Models** | ICLR 2025 Workshop | Feb 2025 | [Paper](https://arxiv.org/pdf/2502.09992) - [Project](https://ml-gsai.github.io/LLaDA-demo/) |
 
 ## 👍 Acknowledgement
 - [Awesome-Latent-CoT](https://github.com/EIT-NLP/Awesome-Latent-CoT): a curated list of papers exploring latent chain-of-thought reasoning in large language models.  ￼
