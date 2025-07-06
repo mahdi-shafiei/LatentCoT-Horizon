@@ -242,6 +242,7 @@ ___
 | **Ask, and it shall be given: On the Turing completeness of prompting** | arXiv | Nov 2024 | [Paper](https://arxiv.org/abs/2411.01992) |
 | **Reinforcement Pre-Training** | arXiv | Jun 2025 | [Paper](https://arxiv.org/abs/2506.08007) |
 | **Constant Bit-size Transformers Are Turing Complete** | arXiv | Jun 2025 | [Paper](https://arxiv.org/abs/2506.12027) |
+| **Reasoning by Superposition: A Theoretical Perspective on Chain of Continuous Thought** | arXiv | Jul 2025 | [Paper](https://arxiv.org/pdf/2505.12514) - [Code](https://github.com/Ber666/reasoning-by-superposition) |
 
 ### ♾️ Towards Infinite-depth Reasoning
 
@@ -273,7 +274,6 @@ ___
 | **LLaDA 1.5: Variance-Reduced Preference Optimization for Large Language Diffusion Models** | arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.19223) - [Project](https://ml-gsai.github.io/LLaDA-1.5-Demo/) |
 | **d1: Scaling Reasoning in Diffusion Large Language Models via Reinforcement Learning** | arXiv | June 2025 | [Paper](https://arxiv.org/pdf/2504.12216) - [Project](https://dllm-reasoning.github.io/) |
 
-
 ##### 🔗 Embedding-based Diffusion Models
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
@@ -284,9 +284,6 @@ ___
 | **Diffusion of Thought: Chain-of-Thought Reasoning in Diffusion Language Models** | ICLR 2024 | Feb 2024 | [Paper](https://arxiv.org/pdf/2402.07754) - [Project](https://github.com/HKUNLP/diffusion-of-thoughts) |
 | **TESS: Text-to-Text Self-Conditioned Simplex Diffusion** | EACL 2024 | Feb 2024 | [Paper](https://arxiv.org/pdf/2305.08379) - [Project](https://github.com/allenai/tess-diffusion) |
 | **TESS 2: A Large-Scale Generalist Diffusion Language Model** | arXiv | Feb 2025 | [Paper](https://arxiv.org/pdf/2502.13917) |
-
-
-
 
 ##### 🧬 Hybrid AR-Diffusion Models
 | Title | Venue | Date | Links |
