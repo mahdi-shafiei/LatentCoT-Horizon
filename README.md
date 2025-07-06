@@ -179,68 +179,63 @@ ___
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
 | **Towards a mechanistic interpretation of multi-step reasoning capabilities of language models** | arXiv | Oct 2023 | [Paper](https://arxiv.org/abs/2310.14491) - [Code](https://github.com/yifan-h/MechanisticProbe)|
-| **Iteration head: A mechanistic study of chain-of-thought** | NeurIPS 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2406.02546) - [Project](https://vivien-cabannes.github.io/iteration-head) |
-| **Towards understanding how transformer perform multi-step reasoning with matching operation** | arXiv | Jun 2024 | [Paper](https://arxiv.org/abs/2406.04689) |
+| **Iteration head: A mechanistic study of chain-of-thought** | NeurIPS 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2406.02128)s |
+| **Towards understanding how transformer perform multi-step reasoning with matching operation** | arXiv | Jun 2024 | [Paper](https://arxiv.org/abs/2405.15302v1) |
 | **Do LLMs Really Think Step-by-step In Implicit Reasoning?** | arXiv | Nov 2024 | [Paper](https://arxiv.org/abs/2411.15862) |
-| **Openai o1 system card** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.16720) |
-| **Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning** | arXiv | Jan 2025 | [Paper](https://arxiv.org/abs/2501.12948) |
 | **Back attention: Understanding and enhancing multi-hop reasoning in large language models** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.10835) |
 | **How Do LLMs Perform Two-Hop Reasoning in Context?** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.13913) |
 | **Reasoning with latent thoughts: On the power of looped transformers** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.17416) |
 | **A little depth goes a long way: The expressive power of log-depth transformers** | arXiv | Mar 2025 | [Paper](https://arxiv.org/abs/2503.03961) |
-| **Latent Chain-of-Thought? Decoding the Depth-Recurrent Transformer** | arXiv | Jul 2025 | [Paper](https://arxiv.org/pdf/2507.02199) - [Code](https://github.com/wenquanlu/huginn-latent-cot) |
+| **Latent Chain-of-Thought? Decoding the Depth-Recurrent Transformer** | arXiv | Jul 2025 | [Paper](https://arxiv.org/abs/2507.02199) - [Code](https://github.com/wenquanlu/huginn-latent-cot) |
 ___
 
 #### 🛠️ Mechanisms of Latent CoT in Layer Representation
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
-| **Enhancing the locality and breaking the memory bottleneck of transformer on time series forecasting** | NeurIPS 2019 | Jul 2019 | [Paper](https://arxiv.org/abs/1907.00235) - [Code](https://github.com/ucla-ideas-lab/Transformer-XL) |
+| **Enhancing the locality and breaking the memory bottleneck of transformer on time series forecasting** | NeurIPS 2019 | Jul 2019 | [Paper](https://arxiv.org/abs/1907.00235) |
 | **Transformer feed-forward layers are key-value memories** | EMNLP 2021 | Dec 2020 | [Paper](https://arxiv.org/abs/2012.14913) |
-| **Interpretability in the wild: a circuit for indirect object identification in gpt-2 small** | arXiv | Nov 2022 | [Paper](https://arxiv.org/abs/2211.00593) - [Code](https://github.com/callaghang/ioi-circuit-extraction) |
-| **micse: Mutual information contrastive learning for low-shot sentence embeddings** | arXiv | Nov 2022 | [Paper](https://arxiv.org/abs/2211.04928) - [Code](https://github.com/tassilo-klein/micse) |
-| **How does GPT-2 compute greater-than?: Interpreting mathematical abilities in a pre-trained language model** | NeurIPS 2023 | May 2023 | [Paper](https://arxiv.org/abs/2305.00586) - [Code](https://github.com/michael-hanna/interp-greater-than) |
-| **A mechanistic interpretation of arithmetic reasoning in language models using causal mediation analysis** | EMNLP 2023 | May 2023 | [Paper](https://arxiv.org/abs/2305.15054) - [Code](https://github.com/Zurich-NLP/MECH-INTERP) |
+| **Interpretability in the wild: a circuit for indirect object identification in gpt-2 small** | arXiv | Nov 2022 | [Paper](https://arxiv.org/abs/2211.00593)  |
+| **micse: Mutual information contrastive learning for low-shot sentence embeddings** | arXiv | Nov 2022 | [Paper](https://arxiv.org/abs/2211.04928) - [Code](https://github.com/SAP-samples/acl2023-micse/) |
+| **How does GPT-2 compute greater-than?: Interpreting mathematical abilities in a pre-trained language model** | NeurIPS 2023 | May 2023 | [Paper](https://arxiv.org/abs/2305.00586) |
+| **A mechanistic interpretation of arithmetic reasoning in language models using causal mediation analysis** | EMNLP 2023 | May 2023 | [Paper](https://arxiv.org/abs/2305.15054) - [Code](https://github.com/alestolfo/lm-arithmetic) |
 | **Why lift so heavy? slimming large language models by cutting off the layers** | arXiv | Feb 2024 | [Paper](https://arxiv.org/abs/2402.11700) |
 | **Do large language models latently perform multi-hop reasoning?** | EACL 2024 | Feb 2024 | [Paper](https://arxiv.org/abs/2402.16837) |
 | **How to think step-by-step: A mechanistic understanding of chain-of-thought reasoning** | ICLR 2024 | Feb 2024 | [Paper](https://arxiv.org/abs/2402.18312) |
 | **The Unreasonable Ineffectiveness of the Deeper Layers** | arXiv | Mar 2024 | [Paper](https://arxiv.org/abs/2403.17887) |
-| **Inheritune: Training Smaller Yet More Attentive Language Models** | arXiv | Apr 2024 | [Paper](https://arxiv.org/abs/2404.08634) - [Code](https://github.com/sandals-lab/inheritune) |
-| **Grokked transformers are implicit reasoners: A mechanistic journey to the edge of generalization** | ICML 2024 | May 2024 | [Paper](https://arxiv.org/abs/2405.15071) - [Code](https://github.com/boshijwang/grokking-reasoners) |
-| **Loss landscape geometry reveals stagewise development of transformers** | Hi-DL 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2406.02452) |
-| **Hopping too late: Exploring the limitations of large language models on multi-hop queries** | arXiv | Jun 2024 | [Paper](https://arxiv.org/abs/2406.12775) - [Code](https://github.com/biu-nlp/hopping-too-late) |
+| **Inheritune: Training Smaller Yet More Attentive Language Models** | arXiv | Apr 2024 | [Paper](https://arxiv.org/abs/2404.08634v2) - [Code](https://github.com/sanyalsunny111/LLM-Inheritune) |
+| **Grokked transformers are implicit reasoners: A mechanistic journey to the edge of generalization** | ICML 2024 | May 2024 | [Paper](https://arxiv.org/abs/2405.15071) - [Code](https://github.com/OSU-NLP-Group/GrokkedTransformer) |
+| **Loss landscape geometry reveals stagewise development of transformers** | Hi-DL 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2402.02364v2) |
+| **Hopping too late: Exploring the limitations of large language models on multi-hop queries** | arXiv | Jun 2024 | [Paper](https://arxiv.org/abs/2406.12775) |
 | **Distributional reasoning in llms: Parallel reasoning processes in multi-hop reasoning** | arXiv | Jun 2024 | [Paper](https://arxiv.org/abs/2406.13858) |
-| **Unveiling Factual Recall Behaviors of Large Language Models through Knowledge Neurons** | arXiv | Aug 2024 | [Paper](https://arxiv.org/abs/2408.03247) - [Code](https://github.com/WadeWfy/Knowledge-Neurons) |
+| **Unveiling Factual Recall Behaviors of Large Language Models through Knowledge Neurons** | arXiv | Aug 2024 | [Paper](https://arxiv.org/abs/2408.03247) |
 | **Unveiling induction heads: Provable training dynamics and feature learning in transformers** | arXiv | Sep 2024 | [Paper](https://arxiv.org/abs/2409.10559) |
 | **Investigating layer importance in large language models** | arXiv | Sep 2024 | [Paper](https://arxiv.org/abs/2409.14381) |
-| **Unifying and Verifying Mechanistic Interpretations: A Case Study with Group Operations** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.07476) - [Code](https://github.com/willy-wu/unified_circuits) |
+| **Unifying and Verifying Mechanistic Interpretations: A Case Study with Group Operations** | arXiv | Oct 2024 | [Paper](Unifying and Verifying Mechanistic Interpretations: A Case Study with Group Operations) - [Code](https://github.com/willy-wu/unified_circuits) |
 | **Understanding Layer Significance in LLM Alignment** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.17875) |
 | **Latent Space Chain-of-Embedding Enables Output-free LLM Self-Evaluation** | ICLR 2025 | Oct 2024 | [Paper](https://arxiv.org/abs/2410.13640) - [Code](https://github.com/Alsace08/Chain-of-Embedding) |
 | **Does representation matter? exploring intermediate layers in large language models** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.09563) |
 | **Layer by Layer: Uncovering Hidden Representations in Language Models** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.02013) |
-| **Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.05171) - [Code](https://github.com/JonasGeiping/recurrent-pretraining) |
-| **The Curse of Depth in Large Language Models** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.05795) - [Code](https://github.com/shweistein/the-curse-of-depth-in-llms) |
+| **Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.05171) - [Code](https://github.com/seal-rg/recurrent-pretraining) |
+| **The Curse of Depth in Large Language Models** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.05795) - [Code](https://github.com/lmsdss/LayerNorm-Scaling) |
 | **Back attention: Understanding and enhancing multi-hop reasoning in large language models** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.10835) |
 | **The Representation and Recall of Interwoven Structured Knowledge in LLMs: A Geometric and Layered Analysis** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.10871) |
 | **An explainable transformer circuit for compositional generalization** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.15801) |
 | **Emergent Abilities in Large Language Models: A Survey** | arXiv | Mar 2025 | [Paper](https://arxiv.org/abs/2503.05788) |
 | **Unpacking Robustness in Inflectional Languages: Adversarial Evaluation and Mechanistic Insights** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.07856) |
-| **Do Language Models Use Their Depth Efficiently?** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.13898) - [Code](https://github.com/robertcsordas/depth_efficiency) |
+| **Do Language Models Use Their Depth Efficiently?** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.13898) |
 | **Void in Language Models** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.14467) |
 ___
 
 #### 💻 Turing Completeness of Layer-Based Latent CoT
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
-| **An outsider's view of neural nets** | Cognitive Science | 1986 | [Paper](https://doi.org/10.1207/s15516709cog1001_1) |
-| **Finding Structure in Time** | Cognitive Science | 1990 | [Paper](https://doi.org/10.1207/s15516709cog1402_1) |
-| **On the computational power of neural nets** | JCSS | 1995 | [Paper](https://doi.org/10.1006/jcss.1995.1018) |
+| **On the computational power of neural nets** | JCSS | 1995 | [Paper](https://www.sciencedirect.com/science/article/pii/S0022000085710136) |
 | **Long Short-Term Memory** | Neural Computation | 1997 | [Paper](https://doi.org/10.1162/neco.1997.9.8.1735) |
 | **Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation** | EMNLP 2014 | Jun 2014 | [Paper](https://arxiv.org/abs/1406.1078) |
-| **Attention is all you need** | NeurIPS 2017 | Jun 2017 | [Paper](https://arxiv.org/abs/1706.03762) |
 | **On the turing completeness of modern neural network architectures** | IJCNN 2021 | Jan 2019 | [Paper](https://arxiv.org/abs/1901.03429) |
-| **Recurrent memory transformer** | NeurIPS 2022 | Jul 2022 | [Paper](https://arxiv.org/abs/2207.06881) - [Code](https://github.com/boildamage/Recurrent-Memory-Transformer) |
-| **Looped transformers as programmable computers** | ICML 2023 | Jun 2023 | [Paper](https://arxiv.org/abs/2306.08022) - [Code](https://github.com/giannou/looped-transformers) |
-| **On limitations of the transformer architecture** | CoLM 2024 | Nov 2023 | [Paper](https://arxiv.org/abs/2311.08107) |
+| **Recurrent memory transformer** | NeurIPS 2022 | Jul 2022 | [Paper](https://arxiv.org/abs/2207.06881) |
+| **Looped transformers as programmable computers** | ICML 2023 | Jun 2023 | [Paper](https://arxiv.org/abs/2301.13196) |
+| **On limitations of the transformer architecture** | CoLM 2024 | Nov 2023 | [Paper](https://arxiv.org/abs/2402.08164) |
 | **Investigating Recurrent Transformers with Dynamic Halt** | arXiv | Feb 2024 | [Paper](https://arxiv.org/abs/2402.00976) |
 | **Chain of thought empowers transformers to solve inherently serial problems** | ICLR 2024 | Feb 2024 | [Paper](https://arxiv.org/abs/2402.12875) |
 | **Quiet-star: Language models can teach themselves to think before speaking** | arXiv | Mar 2024 | [Paper](https://arxiv.org/abs/2403.09629) |
