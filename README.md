@@ -210,7 +210,7 @@ ___
 | **Unveiling Factual Recall Behaviors of Large Language Models through Knowledge Neurons** | arXiv | Aug 2024 | [Paper](https://arxiv.org/abs/2408.03247) |
 | **Unveiling induction heads: Provable training dynamics and feature learning in transformers** | arXiv | Sep 2024 | [Paper](https://arxiv.org/abs/2409.10559) |
 | **Investigating layer importance in large language models** | arXiv | Sep 2024 | [Paper](https://arxiv.org/abs/2409.14381) |
-| **Unifying and Verifying Mechanistic Interpretations: A Case Study with Group Operations** | arXiv | Oct 2024 | [Paper](Unifying and Verifying Mechanistic Interpretations: A Case Study with Group Operations) - [Code](https://github.com/willy-wu/unified_circuits) |
+| **Unifying and Verifying Mechanistic Interpretations: A Case Study with Group Operations** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.07476v2) - [Code](https://github.com/willy-wu/unified_circuits) |
 | **Understanding Layer Significance in LLM Alignment** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.17875) |
 | **Latent Space Chain-of-Embedding Enables Output-free LLM Self-Evaluation** | ICLR 2025 | Oct 2024 | [Paper](https://arxiv.org/abs/2410.13640) - [Code](https://github.com/Alsace08/Chain-of-Embedding) |
 | **Does representation matter? exploring intermediate layers in large language models** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.09563) |
