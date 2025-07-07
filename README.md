@@ -303,6 +303,7 @@ ___
 | **Learning to (learn at test time): Rnns with expressive hidden states** | arXiv | Jul 2024 | [Paper](https://arxiv.org/abs/2407.04620) |
 | **Titans: Learning to memorize at test time** | arXiv | Jan 2025 | [Paper](https://arxiv.org/abs/2501.00663) |
 | **Atlas: Learning to optimally memorize the context at test time** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.23735) |
+| **M+: Extending MemoryLLM with Scalable Long-Term Memory** | ICML 2025 | May 2025 | [Paper](https://arxiv.org/pdf/2502.00592) - [Code](https://github.com/wangyu-ustc/MemoryLLM) |
 
 ___
 
