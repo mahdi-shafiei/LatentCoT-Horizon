@@ -299,6 +299,7 @@ ___
 #### 🕸️ Towards an 'Infinitely Long' Optimiser Network
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
+| **MEMORYLLM: Towards Self-Updatable Large Language Models** | ICML 2024 | Feb 2024 | [Paper](https://arxiv.org/abs/2402.04624) - [Code](https://github.com/wangyu-ustc/MemoryLLM) |
 | **Leave no context behind: Efficient infinite context transformers with infini-attention** | arXiv | Apr 2024 | [Paper](https://arxiv.org/abs/2404.07143) - [Project](https://sites.google.com/view/infini-attention) |
 | **Learning to (learn at test time): Rnns with expressive hidden states** | arXiv | Jul 2024 | [Paper](https://arxiv.org/abs/2407.04620) |
 | **Titans: Learning to memorize at test time** | arXiv | Jan 2025 | [Paper](https://arxiv.org/abs/2501.00663) |
