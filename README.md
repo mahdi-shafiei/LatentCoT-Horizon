@@ -303,7 +303,7 @@ ___
 #### 📌 Implicit Fixed Point RNNs
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
-| **Implicit Language Models are RNNs: Balancing Parallelization and Expressivity** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.07827) |
+| **Implicit Language Models are RNNs: Balancing Parallelization and Expressivity** | ICML 2025 | Feb 2025 | [Paper](https://arxiv.org/abs/2502.07827) - [Code](https://github.com/microsoft/implicit_languagemodels) |
 
 ___
 
@@ -311,11 +311,11 @@ ___
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
 | **A survey of diffusion models in natural language processing** | TACL | May 2023 | [Paper](https://arxiv.org/abs/2305.14671) |
-| **Infinity: Scaling bitwise autoregressive modeling for high-resolution image synthesis** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.04431) |
-| **Large Language Diffusion Models** | ICLR 2025 Workshop | Feb 2025 | [Paper](https://arxiv.org/pdf/2502.09992) - [Project](https://ml-gsai.github.io/LLaDA-demo/) |
+| **Infinity: Scaling bitwise autoregressive modeling for high-resolution image synthesis** | CVPR 2025 (oral) | Dec 2024 | [Paper](https://arxiv.org/abs/2412.04431) - [Code](https://github.com/FoundationVision/Infinity)|
+| **Large Language Diffusion Models** | ICLR 2025 Workshop | Feb 2025 | [Paper](https://arxiv.org/pdf/2502.09992) - [Project](https://ml-gsai.github.io/LLaDA-demo/) - [Code](https://github.com/ML-GSAI/LLaDA) |
 
 ## 👍 Acknowledgement
-- [Awesome-Latent-CoT](https://github.com/EIT-NLP/Awesome-Latent-CoT): a curated list of papers exploring latent chain-of-thought reasoning in large language models.  ￼
+- [Awesome-Latent-CoT](https://github.com/EIT-NLP/Awesome-Latent-CoT): a curated list of papers exploring latent chain-of-thought reasoning in LLMs.  ￼
 
 ## ♥️ Contributors
 
