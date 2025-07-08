@@ -136,25 +136,17 @@ ___
 ##### 📦 Hidden-state based methods
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
-| **Gated linear attention transformers with hardware-efficient training** | arXiv | Dec 2023 | [Paper](https://arxiv.org/abs/2312.06635) |
-| **DeltaNet: A new scheme for parallelizing recurrent models over sequence length** | arXiv | Mar 2024 | [Paper](https://arxiv.org/abs/2403.04229) |
-| **Eagle and finch: Rwkv with matrix-valued states and dynamic recurrence** | arXiv | Apr 2024 | [Paper](https://arxiv.org/abs/2404.05892) - [Code](https://github.com/RWKV/RWKV-v5) |
-| **Hgrn2: Gated linear rnns with state expansion** | arXiv | Apr 2024 | [Paper](https://arxiv.org/abs/2404.07904) - [Code](https://github.com/hgrn-stack/HGRN2) |
-| **Transformers are ssms: Generalized models and efficient algorithms through structured state space duality** | arXiv | May 2024 | [Paper](https://arxiv.org/abs/2405.21060) - [Code](https://github.com/state-spaces/griffin) |
-| **Parallelizing linear transformers with the delta rule over sequence length** | arXiv | Jun 2024 | [Paper](https://arxiv.org/abs/2406.06484) - [Code](https://github.com/yangsonglin/delta-transformer) |
+| **Gated linear attention transformers with hardware-efficient training** | arXiv | Dec 2023 | [Paper](https://arxiv.org/abs/2312.06635) - [Code](https://github.com/fla-org/flash-linear-attention) ||
+| **Eagle and finch: Rwkv with matrix-valued states and dynamic recurrence** | arXiv | Apr 2024 | [Paper](https://arxiv.org/abs/2404.05892) - [Code](https://github.com/BlinkDL/RWKV-LM) |
+| **Hgrn2: Gated linear rnns with state expansion** | arXiv | Apr 2024 | [Paper](https://arxiv.org/abs/2404.07904) - [Code](https://github.com/fla-org/flash-linear-attention) |
+| **Transformers are ssms: Generalized models and efficient algorithms through structured state space duality** | arXiv | May 2024 | [Paper](https://arxiv.org/abs/2405.21060) - [Code](https://github.com/state-spaces/mamba) |
+| **Parallelizing linear transformers with the delta rule over sequence length** | arXiv | Jun 2024 | [Paper](https://arxiv.org/abs/2406.06484) - [Code](https://github.com/fla-org/flash-linear-attention) |
 
 ##### ⚙️ Optimization-based State Evolution
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
-| **Transformers are rnns: Fast autoregressive transformers with linear attention** | ICML 2020 | Jun 2020 | [Paper](https://arxiv.org/abs/2006.16236) - [Code](https://github.com/idiap/fast-transformers) |
-| **Retentive network: A successor to transformer for large language models** | arXiv | Jul 2023 | [Paper](https://arxiv.org/abs/2307.08621) - [Code](https://github.com/microsoft/unilm/tree/master/retnet) |
-| **Gated linear attention transformers with hardware-efficient training** | arXiv | Dec 2023 | [Paper](https://arxiv.org/abs/2312.06635) |
-| **Eagle and finch: Rwkv with matrix-valued states and dynamic recurrence** | arXiv | Apr 2024 | [Paper](https://arxiv.org/abs/2404.05892) - [Code](https://github.com/RWKV/RWKV-v5) |
-| **Hgrn2: Gated linear rnns with state expansion** | arXiv | Apr 2024 | [Paper](https://arxiv.org/abs/2404.07904) - [Code](https://github.com/hgrn-stack/HGRN2) |
-| **Transformers are ssms: Generalized models and efficient algorithms through structured state space duality** | arXiv | May 2024 | [Paper](https://arxiv.org/abs/2405.21060) - [Code](https://github.com/state-spaces/griffin) |
-| **Parallelizing linear transformers with the delta rule over sequence length** | arXiv | Jun 2024 | [Paper](https://arxiv.org/abs/2406.06484) - [Code](https://github.com/yangsonglin/delta-transformer) |
 | **Learning to (learn at test time): Rnns with expressive hidden states** | arXiv | Jul 2024 | [Paper](https://arxiv.org/abs/2407.04620) |
-| **Gated Delta Networks: Improving Mamba2 with Delta Rule** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.06464) |
+| **Gated Delta Networks: Improving Mamba2 with Delta Rule** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.06464) - [Code](https://github.com/fla-org/flash-linear-attention) |
 | **Titans: Learning to memorize at test time** | arXiv | Jan 2025 | [Paper](https://arxiv.org/abs/2501.00663) |
 | **Lattice: Learning to efficiently compress the memory** | arXiv | Apr 2025 | [Paper](https://arxiv.org/abs/2504.05646) |
 | **It's All Connected: A Journey Through Test-Time Memorization, Attentional Bias, Retention, and Online Optimization** | arXiv | Apr 2025 | [Paper](https://arxiv.org/abs/2504.13173) |
@@ -166,9 +158,9 @@ ___
 | --- | --- | --- | --- |
 | **Linearizing large language models** | arXiv | May 2024 | [Paper](https://arxiv.org/abs/2405.06640) |
 | **Transformers to ssms: Distilling quadratic knowledge to subquadratic models** | NeurIPS 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2406.01289) |
-| **LoLCATs: On Low-Rank Linearizing of Large Language Models** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.10254) |
-| **Llamba: Scaling Distilled Recurrent Models for Efficient Language Processing** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.14458) - [Code](https://github.com/avivbick/llamba) |
-| **Liger: Linearizing Large Language Models to Gated Recurrent Structures** | arXiv | Mar 2025 | [Paper](https://arxiv.org/abs/2503.01496) |
+| **LoLCATs: On Low-Rank Linearizing of Large Language Models** | ICLR 2025 | Oct 2024 | [Paper](https://arxiv.org/abs/2410.10254) |
+| **Llamba: Scaling Distilled Recurrent Models for Efficient Language Processing** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.14458) - [Code](https://github.com/HazyResearch/lolcats) |
+| **Liger: Linearizing Large Language Models to Gated Recurrent Structures** | arXiv | Mar 2025 | [Paper](https://arxiv.org/abs/2503.01496) - [Code](https://github.com/OpenSparseLLMs/Linearization) |
 | **Flexible Language Modeling in Continuous Space with Transformer-based Autoregressive Flows** | arXiv | Jul 2025 | [Paper](https://arxiv.org/pdf/2507.00425) |
 
 ### 🔬 Mechanistic Interpretability
