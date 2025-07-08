@@ -19,6 +19,10 @@
 
 This repository provides the papers mentioned in the survey "A Survey on Latent Reasoning".
 
+<div align=center>
+ <img src="src/outline.png" width="500px">
+</div>
+
 ## 📑 Citation
 
 If you find our survey useful for your research, please consider citing the following paper:
@@ -36,10 +40,18 @@ If you find our survey useful for your research, please consider citing the foll
 
 `[2025-07-04]` We have initialed the repository.
 
+## 🆚 Explict Reasoning vs. Latent Reasoning
+<div align=center>
+ <img src="src/comparison.png" width="500px">
+</div>
+
+
+
 ## 💼 Contents
 
 - [📑 Citation](#-citation)
 - [📣 Update News](#-update-news)
+- [🆚 Explict Reasoning vs. Latent Reasoning](#-explict-reasoning-vs-latent-reasoning)
 - [💼 Contents](#-contents)
 - [📜 Papers](#-papers)
   - [🧠 Latent CoT Reasoning](#-latent-cot-reasoning)
@@ -70,6 +82,8 @@ If you find our survey useful for your research, please consider citing the foll
 
 
 ## 📜 Papers
+
+
 ### 🧠 Latent CoT Reasoning
 
 ___
