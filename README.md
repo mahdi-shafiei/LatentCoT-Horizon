@@ -2,22 +2,23 @@
  <img src="src/logo.png" width="180px">
 </div>
 <h2 align="center">
-  <a href="">🔥🔥🔥 LatentCoT-Horizon</a>
+  <a href="https://arxiv.org/abs/2507.06203">🔥🔥🔥 LatentCoT-Horizon</a>
 </h2>
 <p align="center">
   If you like our project, please give us a star ⭐ on GitHub for the latest update.
 </p>
-<p align="center">
-  <a href="https://awesome.re">
-    <img src="https://awesome.re/badge.svg" alt="Awesome">
-  </a>
-  <a href="https://github.com/multimodal-art-projection/LatentCoT-Horizon/pulls">
-    <img src="https://img.shields.io/badge/PRs-Welcome-green.svg" alt="PRs Welcome">
-  </a>
-  <img src="https://img.shields.io/github/stars/multimodal-art-projection/LatentCoT-Horizon?logoColor=%23C8A2C8&amp;color=%23DCC6E0" alt="GitHub Repo stars">
-</p>
+<h5 align="center">
 
-This repository provides the papers mentioned in the survey "A Survey on Latent Reasoning".
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![arXiv](https://img.shields.io/badge/Arxiv-2507.06203-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2507.06203) 
+[![zhihu](https://img.shields.io/badge/-Twitter@RidgerZhu-black?logo=twitter&logoColor=1D9BF0)](https://x.com/RidgerZhu/status/1942759773986021647)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green.svg)](https://github.com/multimodal-art-projection/LatentCoT-Horizon/pulls)
+[![GitHub Repo stars](https://img.shields.io/github/stars/multimodal-art-projection/LatentCoT-Horizon?logoColor=%23C8A2C8&color=%23DCC6E0)](https://github.com/multimodal-art-projection/LatentCoT-Horizon)
+
+</h5>
+
+
+This repository provides the papers mentioned in the survey "<a href="https://arxiv.org/abs/2507.06203">A Survey on Latent Reasoning</a>".
 
 <div align=center>
  <img src="src/outline.png" width="500px">
@@ -37,6 +38,8 @@ If you find our survey useful for your research, please consider citing the foll
 ```
 
 ## 📣 Update News
+
+`[2025-07-08]` We have released the arxiv: <a href="https://arxiv.org/abs/2507.06203">A Survey on Latent Reasoning</a>. 
 
 `[2025-07-04]` We have initialed the repository.
 
