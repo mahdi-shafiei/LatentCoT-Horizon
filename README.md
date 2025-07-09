@@ -202,7 +202,6 @@ ___
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
 | **Towards a mechanistic interpretation of multi-step reasoning capabilities of language models** | arXiv | Oct 2023 | [Paper](https://arxiv.org/abs/2310.14491) - [Code](https://github.com/yifan-h/MechanisticProbe)|
-| **Understanding and Patching Compositional Reasoning in LLMs** | ACL 2024 (Finding) | Feb 2024 | [Paper](https://arxiv.org/abs/2402.14328) - [Code](https://github.com/Zhaoyi-Li21/creme) |
 | **Iteration head: A mechanistic study of chain-of-thought** | NeurIPS 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2406.02128) |
 | **Towards understanding how transformer perform multi-step reasoning with matching operation** | arXiv | Jun 2024 | [Paper](https://arxiv.org/abs/2405.15302v1) |
 | **Do LLMs Really Think Step-by-step In Implicit Reasoning?** | arXiv | Nov 2024 | [Paper](https://arxiv.org/abs/2411.15862) |
@@ -224,10 +223,12 @@ ___
 | **A mechanistic interpretation of arithmetic reasoning in language models using causal mediation analysis** | EMNLP 2023 | May 2023 | [Paper](https://arxiv.org/abs/2305.15054) - [Code](https://github.com/alestolfo/lm-arithmetic) |
 | **Why lift so heavy? slimming large language models by cutting off the layers** | arXiv | Feb 2024 | [Paper](https://arxiv.org/abs/2402.11700) |
 | **Do large language models latently perform multi-hop reasoning?** | EACL 2024 | Feb 2024 | [Paper](https://arxiv.org/abs/2402.16837) |
+| **Understanding and Patching Compositional Reasoning in LLMs** | ACL 2024 (Finding) | Feb 2024 | [Paper](https://arxiv.org/abs/2402.14328) - [Code](https://github.com/Zhaoyi-Li21/creme) |
 | **How to think step-by-step: A mechanistic understanding of chain-of-thought reasoning** | ICLR 2024 | Feb 2024 | [Paper](https://arxiv.org/abs/2402.18312) |
 | **The Unreasonable Ineffectiveness of the Deeper Layers** | arXiv | Mar 2024 | [Paper](https://arxiv.org/abs/2403.17887) |
 | **Inheritune: Training Smaller Yet More Attentive Language Models** | arXiv | Apr 2024 | [Paper](https://arxiv.org/abs/2404.08634v2) - [Code](https://github.com/sanyalsunny111/LLM-Inheritune) |
 | **Grokked transformers are implicit reasoners: A mechanistic journey to the edge of generalization** | ICML 2024 | May 2024 | [Paper](https://arxiv.org/abs/2405.15071) - [Code](https://github.com/OSU-NLP-Group/GrokkedTransformer) |
+| **Embedding Trajectory for Out-of-Distribution Detection in Mathematical Reasoning** | NeurIPS 2024 | May 2024 | [Paper](https://arxiv.org/abs/2405.14039) - [Code](https://github.com/Alsace08/OOD-Math-Reasoning) |
 | **Loss landscape geometry reveals stagewise development of transformers** | Hi-DL 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2402.02364v2) |
 | **Hopping too late: Exploring the limitations of large language models on multi-hop queries** | arXiv | Jun 2024 | [Paper](https://arxiv.org/abs/2406.12775) |
 | **Distributional reasoning in llms: Parallel reasoning processes in multi-hop reasoning** | arXiv | Jun 2024 | [Paper](https://arxiv.org/abs/2406.13858) |
