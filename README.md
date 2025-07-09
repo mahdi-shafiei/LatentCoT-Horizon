@@ -49,6 +49,19 @@ If you find our survey useful for your research, please consider citing the foll
  <img src="src/comparison.png" width="500px">
 </div>
 
+## ⚡ Contributing
+
+We welcome feedback, suggestions, and contributions that can help improve this survey and repository and make them valuable resources for the entire community.
+We will actively maintain this repository by incorporating new research as it emerges. If you have any suggestions about our taxonomy, please take a look at any missed papers, or update any preprint arXiv paper that has been accepted to some venue.
+
+ If you want to add your work or model to this list, please do not hesitate to email ridger@ucsc.edu or [pull requests]([https://github.com/multimodal-art-projection/LatentCoT-Horizon/pulls](https://github.com/multimodal-art-projection/LatentCoT-Horizon/pulls)). 
+ 
+ Markdown format:
+
+```markdown
+* | **Paper Name** | Name of Conference or Journal + Year | Release Date | [Paper](link) - [Code](link) |
+```
+
 
 
 ## 💼 Contents
