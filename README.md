@@ -202,7 +202,8 @@ ___
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
 | **Towards a mechanistic interpretation of multi-step reasoning capabilities of language models** | arXiv | Oct 2023 | [Paper](https://arxiv.org/abs/2310.14491) - [Code](https://github.com/yifan-h/MechanisticProbe)|
-| **Iteration head: A mechanistic study of chain-of-thought** | NeurIPS 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2406.02128)s |
+| **Understanding and Patching Compositional Reasoning in LLMs** | ACL 2024 (Finding) | Feb 2024 | [Paper](https://arxiv.org/abs/2402.14328) - [Code](https://github.com/Zhaoyi-Li21/creme) |
+| **Iteration head: A mechanistic study of chain-of-thought** | NeurIPS 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2406.02128) |
 | **Towards understanding how transformer perform multi-step reasoning with matching operation** | arXiv | Jun 2024 | [Paper](https://arxiv.org/abs/2405.15302v1) |
 | **Do LLMs Really Think Step-by-step In Implicit Reasoning?** | arXiv | Nov 2024 | [Paper](https://arxiv.org/abs/2411.15862) |
 | **Back attention: Understanding and enhancing multi-hop reasoning in large language models** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.10835) |
