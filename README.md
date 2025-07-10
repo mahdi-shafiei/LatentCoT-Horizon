@@ -119,8 +119,6 @@ ___
 | **Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach** |ICLR 2025 | Feb 2025 | [Paper](https://arxiv.org/abs/2502.05171) - [Code](https://github.com/seal-rg/recurrent-pretraining)|
 | **Pretraining Language Models to Ponder in Continuous Space** |arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.20674) - [Code](https://github.com/LUMIA-Group/PonderingLM) |
 
-
-
 ##### 🏋️ Training-induced Recurrence
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
@@ -130,6 +128,7 @@ ___
 | **Disentangling memory and reasoning ability in large language models** | ACL 2025 (main) | Nov 2024 | [Paper](https://arxiv.org/abs/2411.13504) - [Code](https://github.com/MingyuJ666/Disentangling-Memory-and-Reasoning) |
 | **Training large language models to reason in a continuous latent space** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.06769) - [Code](https://github.com/facebookresearch/coconut) |
 | **Compressed chain of thought: Efficient reasoning through dense representations** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.13171) |
+| **Multimodal Latent Language Modeling with Next-Token Diffusion**| arXiv | Dec 2024 | [Paper](https://arxiv.org/pdf/2412.08635) - [Page](https://thegenerality.com/agi/research.html)|
 | **Efficient Reasoning with Hidden Thinking** | arXiv | Jan 2025 | [Paper](https://arxiv.org/pdf/2501.19201) - [Code](https://github.com/shawnricecake/Heima) |
 | **Token Assorted: Mixing Latent and Text Tokens for Improved Language Model Reasoning** | ICML 2025 | Feb 2025 | [Paper](https://arxiv.org/abs/2502.03275) |
 | **Lightthinker: Thinking step-by-step compression** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.15589) - [Code](https://github.com/zjunlp/LightThinker) |
@@ -137,6 +136,7 @@ ___
 | **System-1.5 Reasoning: Traversal in Language and Latent Spaces with Dynamic Shortcuts** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.18962) |
 | **Machine Mental Imagery: Empower Multimodal Reasoning with Latent Visual Tokens** | arXiv | Jun 2025 | [Paper](https://www.arxiv.org/abs/2506.17218) - [Code](https://github.com/UMass-Embodied-AGI/Mirage) |
 | **Parallel Continuous Chain-of-Thought with Jacobi Iteration** | arXiv | Jun 2025 | [Paper](https://arxiv.org/abs/2506.18582) - [Code](https://github.com/whyNLP/PCCoT) |
+| **Think Silently, Think Fast: Dynamic Latent Compression of LLM Reasoning Chains** | arXiv | Jun 2025 | [Paper](https://arxiv.org/pdf/2505.16552) - [Code](https://github.com/xiaomi-research/colar) |
 
 ##### 🎯 Training Strategies for Recurrent Reasoning
 
@@ -144,9 +144,11 @@ ___
 | --- | --- | --- | --- |
 | **From explicit cot to implicit cot: Learning to internalize cot step by step** | arXiv | May 2024 | [Paper](https://arxiv.org/abs/2405.14838) |
 | **On the inductive bias of stacking towards improving reasoning** | NeurIPS 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2406.03149) |
-| **Training large language models to reason in a continuous latent space** | CoLM 2024 | Dec 2024 | [Paper](https://arxiv.org/abs/2412.06769) |
+| **Language Models are Hidden Reasoners: Unlocking Latent Reasoning Capabilities via Self-Rewarding** | arXiv | Nov 2024 | [Paper](https://arxiv.org/abs/2411.04282) - [Code](https://github.com/SalesforceAIResearch/LaTRO) |
+| **Training large language models to reason in a continuous latent space** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.06769) |
 | **Enhancing Auto-regressive Chain-of-Thought through Loop-Aligned Reasoning** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.08482) |
 | **Reasoning with latent thoughts: On the power of looped transformers** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.17416) |
+| **Seek in the Dark: Reasoning via Test-Time Instance-Level Policy Gradient in Latent Space** | arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.13308?) - [Code](https://github.com/bigai-nlco/LatentSeek) - [Project](https://bigai-nlco.github.io/LatentSeek/) |
 
 
 ##### ✨ Applications and Capabilities
@@ -155,7 +157,7 @@ ___
 | --- | --- | --- | --- |
 | **Can you learn an algorithm? generalizing from easy to hard problems with recurrent networks** | NeurIPS 2021 | Oct 2021 | [Paper](https://arxiv.org/abs/2110.11112) - [Code](https://github.com/tolga-ertugrul/learning-an-algorithm) |
 | **Looped transformers as programmable computers** | ICML 2023 | Jun 2023 | [Paper](https://arxiv.org/abs/2306.08022) - [Code](https://github.com/giannou/looped-transformers) |
-| **Simulation of graph algorithms with looped transformers** | arXiv | Feb 2024 | [Paper](https://arxiv.org/abs/2402.01107) - [Code](https://github.com/ADeLuca99/Looped-Transformers-on-Graphs) |
+| **Simulation of graph algorithms with looped transformers** | arXiv | Feb 2024 | [Paper](https://arxiv.org/abs/2402.01107) - [Code](https://github.com/ADeLuca99/Looped-Transformers-on-Graphs)|
 | **Guiding Language Model Reasoning with Planning Tokens** | CoLM 2024 | Feb 2024 | [Paper](https://arxiv.org/abs/2402.06634) - [Code](https://github.com/Xinyi-Wang-dot/Planning-Tokens) |
 | **Can looped transformers learn to implement multi-step gradient descent for in-context learning?** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.08292) |
 | **Bypassing the exponential dependency: Looped transformers efficiently learn in-context by multi-step gradient descent** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.11268) |
