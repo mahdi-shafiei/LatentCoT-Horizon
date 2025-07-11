@@ -134,9 +134,11 @@ ___
 | **Lightthinker: Thinking step-by-step compression** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.15589) - [Code](https://github.com/zjunlp/LightThinker) |
 | **Codi: Compressing chain-of-thought into continuous space via self-distillation** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.21074) - [Code](https://github.com/guanziju/Open_CODI) |
 | **System-1.5 Reasoning: Traversal in Language and Latent Spaces with Dynamic Shortcuts** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.18962) |
+| **Hybrid Latent Reasoning via Reinforcement Learning** | arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.18454) - [Code](https://github.com/Yueeeeeeee/HRPO)|
 | **Machine Mental Imagery: Empower Multimodal Reasoning with Latent Visual Tokens** | arXiv | Jun 2025 | [Paper](https://www.arxiv.org/abs/2506.17218) - [Code](https://github.com/UMass-Embodied-AGI/Mirage) |
 | **Parallel Continuous Chain-of-Thought with Jacobi Iteration** | arXiv | Jun 2025 | [Paper](https://arxiv.org/abs/2506.18582) - [Code](https://github.com/whyNLP/PCCoT) |
 | **Think Silently, Think Fast: Dynamic Latent Compression of LLM Reasoning Chains** | arXiv | Jun 2025 | [Paper](https://arxiv.org/pdf/2505.16552) - [Code](https://github.com/xiaomi-research/colar) |
+
 
 ##### 🎯 Training Strategies for Recurrent Reasoning
 
