@@ -222,7 +222,7 @@ ___
 | --- | --- | --- | --- |
 | **Enhancing the locality and breaking the memory bottleneck of transformer on time series forecasting** | NeurIPS 2019 | Jul 2019 | [Paper](https://arxiv.org/abs/1907.00235) |
 | **Transformer feed-forward layers are key-value memories** | EMNLP 2021 | Dec 2020 | [Paper](https://arxiv.org/abs/2012.14913) |
-| **Interpretability in the wild: a circuit for indirect object identification in gpt-2 small** | arXiv | Nov 2022 | [Paper](https://arxiv.org/abs/2211.00593)  |
+| **Interpretability in the wild: a circuit for indirect object identification in GPT-2 small** | arXiv | Nov 2022 | [Paper](https://arxiv.org/abs/2211.00593)  |
 | **micse: Mutual information contrastive learning for low-shot sentence embeddings** | arXiv | Nov 2022 | [Paper](https://arxiv.org/abs/2211.04928) - [Code](https://github.com/SAP-samples/acl2023-micse/) |
 | **How does GPT-2 compute greater-than?: Interpreting mathematical abilities in a pre-trained language model** | NeurIPS 2023 | May 2023 | [Paper](https://arxiv.org/abs/2305.00586) |
 | **A mechanistic interpretation of arithmetic reasoning in language models using causal mediation analysis** | EMNLP 2023 | May 2023 | [Paper](https://arxiv.org/abs/2305.15054) - [Code](https://github.com/alestolfo/lm-arithmetic) |
@@ -244,7 +244,7 @@ ___
 | **Understanding Layer Significance in LLM Alignment** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.17875) |
 | **Latent Space Chain-of-Embedding Enables Output-free LLM Self-Evaluation** | ICLR 2025 | Oct 2024 | [Paper](https://arxiv.org/abs/2410.13640) - [Code](https://github.com/Alsace08/Chain-of-Embedding) |
 | **Does representation matter? exploring intermediate layers in large language models** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.09563) |
-| **Layer by Layer: Uncovering Hidden Representations in Language Models** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.02013) |
+| **Layer by Layer: Uncovering Hidden Representations in Language Models** | ICML 2025 (oral) | Feb 2025 | [Paper](https://arxiv.org/abs/2502.02013) - [Code](https://github.com/OFSkean/information_flow)|
 | **Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.05171) - [Code](https://github.com/seal-rg/recurrent-pretraining) |
 | **The Curse of Depth in Large Language Models** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.05795) - [Code](https://github.com/lmsdss/LayerNorm-Scaling) |
 | **Back attention: Understanding and enhancing multi-hop reasoning in large language models** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.10835) |
