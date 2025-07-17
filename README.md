@@ -45,7 +45,7 @@ If you find our survey useful for your research, please consider citing the foll
 
 `[2025-07-04]` We have initialed the repository.
 
-## 🆚 Explict Reasoning vs. Latent Reasoning
+## 🆚 Explicit Reasoning vs. Latent Reasoning
 <div align=center>
  <img src="src/comparison.png" width="500px">
 </div>
@@ -53,7 +53,7 @@ If you find our survey useful for your research, please consider citing the foll
 ## ⚡ Contributing
 
 We welcome feedback, suggestions, and contributions that can help improve this survey and repository and make them valuable resources for the entire community.
-We will actively maintain this repository by incorporating new research as it emerges. If you have any suggestions about our taxonomy, please take a look at any missed papers, or update any preprint arXiv paper that has been accepted to some venue.
+We will actively maintain this repository by incorporating new research as it emerges. If you have any suggestions about our taxonomy, please take a look at any missed papers or update any preprint arXiv papers that have been accepted to some venue.
 
  If you want to add your work or model to this list, please do not hesitate to email ridger@ucsc.edu or [pull requests]([https://github.com/multimodal-art-projection/LatentCoT-Horizon/pulls](https://github.com/multimodal-art-projection/LatentCoT-Horizon/pulls)). 
  
@@ -118,6 +118,7 @@ ___
 | **Relaxed recursive transformers: Effective parameter sharing with layer-wise Lora** |ICLR 2025 | Oct 2024 | [Paper](https://arxiv.org/abs/2410.20672) |
 | **Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach** |ICLR 2025 | Feb 2025 | [Paper](https://arxiv.org/abs/2502.05171) - [Code](https://github.com/seal-rg/recurrent-pretraining)|
 | **Pretraining Language Models to Ponder in Continuous Space** |arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.20674) - [Code](https://github.com/LUMIA-Group/PonderingLM) |
+| **Mixture-of-Recursions: Learning Dynamic Recursive Depths for Adaptive Token-Level Computation** |arXiv | Jul 2025 | [Paper](https://arxiv.org/pdf/2507.10524) - [Code](https://github.com/raymin0223/mixture_of_recursions) |
 
 ##### 🏋️ Training-induced Recurrence
 | Title | Venue | Date | Links |
