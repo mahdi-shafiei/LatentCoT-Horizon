@@ -2,7 +2,7 @@
  <img src="src/logo.png" width="180px">
 </div>
 <h2 align="center">
-  <a href="https://arxiv.org/abs/2507.06203">🔥🔥🔥 LatentCoT-Horizon</a>
+  <a href="https://arxiv.org/abs/2507.06203">LatentCoT-Horizon</a>
 </h2>
 <p align="center">
   If you like our project, please give us a star ⭐ on GitHub for the latest update.
