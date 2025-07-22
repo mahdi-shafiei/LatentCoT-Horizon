@@ -354,7 +354,9 @@ ___
 | **Large Language Diffusion Models** | ICLR 2025 Workshop | Feb 2025 | [Paper](https://arxiv.org/pdf/2502.09992) - [Project](https://ml-gsai.github.io/LLaDA-demo/) - [Code](https://github.com/ML-GSAI/LLaDA) |
 
 ## 👍 Acknowledgement
-- [Awesome-Latent-CoT](https://github.com/EIT-NLP/Awesome-Latent-CoT): a curated list of papers exploring latent chain-of-thought reasoning in LLMs.  ￼
+- [Awesome-Latent-CoT](https://github.com/EIT-NLP/Awesome-Latent-CoT): a curated list of papers exploring latent chain-of-thought reasoning in LLMs.
+- [Awesome-Efficient-Reasoning](https://github.com/hemingkx/Awesome-Efficient-Reasoning): a curated list of works on making LLM reasoning cheaper and faster.
+- [Efficient Reasoning Models: A Survey](https://github.com/fscdc/Awesome-Efficient-Reasoning-Models): the companion repo to the survey, aggregating methods/benchmarks for “shorter, smaller, faster” reasoning models.
 
 ## ♥️ Contributors
 
