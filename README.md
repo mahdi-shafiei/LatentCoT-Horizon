@@ -12,6 +12,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![arXiv](https://img.shields.io/badge/Arxiv-2507.06203-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2507.06203) 
 [![hf_paper](https://img.shields.io/badge/🤗-Paper%20In%20HF-red.svg)](https://huggingface.co/papers/2507.06203)
+[![TechBeat](https://img.shields.io/badge/量子位%20-black)](https://mp.weixin.qq.com/s/no5Jwyob3TjbqMNcdGaneQ)
 [![zhihu](https://img.shields.io/badge/-Twitter@elvis-black?logo=twitter&logoColor=1D9BF0)](https://x.com/omarsar0/status/1942976772724695513?s=46)
 [![zhihu](https://img.shields.io/badge/-Twitter@RidgerZhu-black?logo=twitter&logoColor=1D9BF0)](https://x.com/RidgerZhu/status/1942759773986021647)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green.svg)](https://github.com/multimodal-art-projection/LatentCoT-Horizon/pulls)
