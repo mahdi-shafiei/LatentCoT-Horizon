@@ -292,7 +292,8 @@ ___
 | **Simplified and generalized masked diffusion for discrete data** | NeurIPS 2024 | Jun 2024 | [Paper](https://arxiv.org/pdf/2406.04329) -[Project](https://github.com/google-deepmind/md4) |
 | **Simple and effective masked diffusion language models** | NeurIPS 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2406.19509) - [Code](https://github.com/ssahoo04/MDLM) |
 | **Scaling up Masked Diffusion Models on Text** | arXiv | Oct 2024 | [Paper](https://arxiv.org/pdf/2406.07524) - [Project](https://s-sahoo.com/mdlm) |
-| **Mmada: Multimodal large diffusion language models** | arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.15809) - [Project](https://github.com/Gen-Verse/MMaDA/) |
+| **MMaDa: Multimodal large diffusion language models** | arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.15809) - [Project](https://github.com/Gen-Verse/MMaDA/) |
+
 
 ##### ⬛ Masked Diffusion Models (With Cache)
 | Title | Venue | Date | Links |
@@ -305,6 +306,7 @@ ___
 | **Reinforcing the Diffusion Chain of Lateral Thought with Diffusion Language Models** | arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.10446) |
 | **LLaDA 1.5: Variance-Reduced Preference Optimization for Large Language Diffusion Models** | arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.19223) - [Project](https://ml-gsai.github.io/LLaDA-1.5-Demo/) |
 | **d1: Scaling Reasoning in Diffusion Large Language Models via Reinforcement Learning** | arXiv | June 2025 | [Paper](https://arxiv.org/pdf/2504.12216) - [Project](https://dllm-reasoning.github.io/) |
+| **Diffusion Beats Autoregressive in Data-Constrained Settings** | arXiv | July 2025 | [Paper](https://www.arxiv.org/abs/2507.15857) - [Project](https://diffusion-scaling.github.io/) - [Code](https://github.com/wmn-231314/diffusion-data-constraint) |
 
 ##### 🔗 Embedding-based Diffusion Models
 | Title | Venue | Date | Links |
@@ -332,7 +334,7 @@ ___
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
 | **MEMORYLLM: Towards Self-Updatable Large Language Models** | ICML 2024 | Feb 2024 | [Paper](https://arxiv.org/abs/2402.04624) - [Code](https://github.com/wangyu-ustc/MemoryLLM) |
-| **Leave no context behind: Efficient infinite context transformers with infini-attention** | arXiv | Apr 2024 | [Paper](https://arxiv.org/abs/2404.07143) - [Project](https://sites.google.com/view/infini-attention) |
+| **Leave No Context Behind: Efficient infinite context transformers with infini-attention** | arXiv | Apr 2024 | [Paper](https://arxiv.org/abs/2404.07143) - [Project](https://sites.google.com/view/infini-attention) |
 | **Learning to (learn at test time): Rnns with expressive hidden states** | arXiv | Jul 2024 | [Paper](https://arxiv.org/abs/2407.04620) |
 | **Titans: Learning to memorize at test time** | arXiv | Jan 2025 | [Paper](https://arxiv.org/abs/2501.00663) |
 | **Atlas: Learning to optimally memorize the context at test time** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.23735) |
@@ -350,7 +352,7 @@ ___
 #### 💬 Discussion
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
-| **A survey of diffusion models in natural language processing** | TACL | May 2023 | [Paper](https://arxiv.org/abs/2305.14671) |
+| **A Survey of diffusion models in natural language processing** | TACL | May 2023 | [Paper](https://arxiv.org/abs/2305.14671) |
 | **Infinity: Scaling bitwise autoregressive modeling for high-resolution image synthesis** | CVPR 2025 (oral) | Dec 2024 | [Paper](https://arxiv.org/abs/2412.04431) - [Code](https://github.com/FoundationVision/Infinity)|
 | **Large Language Diffusion Models** | ICLR 2025 Workshop | Feb 2025 | [Paper](https://arxiv.org/pdf/2502.09992) - [Project](https://ml-gsai.github.io/LLaDA-demo/) - [Code](https://github.com/ML-GSAI/LLaDA) |
 
