@@ -191,7 +191,8 @@ ___
 | **It's All Connected: A Journey Through Test-Time Memorization, Attentional Bias, Retention, and Online Optimization** | arXiv | Apr 2025 | [Paper](https://arxiv.org/abs/2504.13173) |
 | **Atlas: Learning to optimally memorize the context at test time** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.23735) |
 | **Soft Reasoning: Navigating Solution Spaces in Large Language Models through Controlled Embedding Exploration** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.24688) |
-
+| **Physics of Language Models: Part 4.1, Architecture Design and the Magic of Canon Layers**| SSRN | May 2025 | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5240330) - [Code](https://github.com/facebookresearch/PhysicsLM4) |
+ 
 ##### 🎭 Training-induced Hidden-State Conversion
 | Title | Venue | Date | Links |
 | --- | --- | --- | --- |
