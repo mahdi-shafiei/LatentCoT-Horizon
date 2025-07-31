@@ -117,6 +117,7 @@ ___
 | **CoTFormer: A Chain-of-Thought Driven Architecture with Budget-Adaptive Computation Cost at Inference** |ICLR 2025 | Oct 2023 | [Paper](https://arxiv.org/abs/2310.10845) |
 | **AlgoFormer: An Efficient Transformer Framework with Algorithmic Structures** |TMLR 2025 | Feb 2024 | [Paper](https://arxiv.org/abs/2402.13572) - [Code](https://github.com/chuanyang-Zheng/Algoformer)|
 | **Relaxed recursive transformers: Effective parameter sharing with layer-wise Lora** |ICLR 2025 | Oct 2024 | [Paper](https://arxiv.org/abs/2410.20672) |
+| **Byte Latent Transformer: Patches Scale Better Than Tokens** |ACL 2025 Outstanding Paper | Dec 2024 | [Paper](https://arxiv.org/abs/2412.09871) - [Code](https://github.com/facebookresearch/blt)|
 | **Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach** |ICLR 2025 | Feb 2025 | [Paper](https://arxiv.org/abs/2502.05171) - [Code](https://github.com/seal-rg/recurrent-pretraining)|
 | **Pretraining Language Models to Ponder in Continuous Space** |arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.20674) - [Code](https://github.com/LUMIA-Group/PonderingLM) |
 | **Mixture-of-Recursions: Learning Dynamic Recursive Depths for Adaptive Token-Level Computation** |arXiv | Jul 2025 | [Paper](https://arxiv.org/pdf/2507.10524) - [Code](https://github.com/raymin0223/mixture_of_recursions) |
