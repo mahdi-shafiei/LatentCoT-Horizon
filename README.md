@@ -129,7 +129,7 @@ ___
 | **Guiding Language Model Reasoning with Planning Tokens** | COLM 2024 | Oct 2023 | [Paper](https://arxiv.org/abs/2310.05707) - [Code](https://github.com/WANGXinyiLinda/planning_tokens) |
 | **Let's Think Dot by Dot: Hidden computation in transformer language models** | COLM 2024 | Apr 2024 | [Paper](https://arxiv.org/abs/2404.15758) - [Code](https://github.com/JacobPfau/fillerTokens) |
 | **Disentangling memory and reasoning ability in large language models** | ACL 2025 (main) | Nov 2024 | [Paper](https://arxiv.org/abs/2411.13504) - [Code](https://github.com/MingyuJ666/Disentangling-Memory-and-Reasoning) |
-| **Training large language models to reason in a continuous latent space** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.06769) - [Code](https://github.com/facebookresearch/coconut) |
+| **Training Large Language Models to Reason in a Continuous Latent Space** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.06769) - [Code](https://github.com/facebookresearch/coconut) |
 | **Compressed chain of thought: Efficient reasoning through dense representations** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.13171) |
 | **Multimodal Latent Language Modeling with Next-Token Diffusion**| arXiv | Dec 2024 | [Paper](https://arxiv.org/pdf/2412.08635) - [Page](https://thegenerality.com/agi/research.html)|
 | **Efficient Reasoning with Hidden Thinking** | arXiv | Jan 2025 | [Paper](https://arxiv.org/pdf/2501.19201) - [Code](https://github.com/shawnricecake/Heima) |
@@ -141,6 +141,8 @@ ___
 | **Machine Mental Imagery: Empower Multimodal Reasoning with Latent Visual Tokens** | arXiv | Jun 2025 | [Paper](https://www.arxiv.org/abs/2506.17218) - [Code](https://github.com/UMass-Embodied-AGI/Mirage) |
 | **Parallel Continuous Chain-of-Thought with Jacobi Iteration** | arXiv | Jun 2025 | [Paper](https://arxiv.org/abs/2506.18582) - [Code](https://github.com/whyNLP/PCCoT) |
 | **Think Silently, Think Fast: Dynamic Latent Compression of LLM Reasoning Chains** | arXiv | Jun 2025 | [Paper](https://arxiv.org/pdf/2505.16552) - [Code](https://github.com/xiaomi-research/colar) |
+| **SynAdapt: Learning Adaptive Reasoning in Large Language Models via Synthetic Continuous Chain-of-Thought** | arXiv | Aug 2025 | [Paper](https://arxiv.org/pdf/2508.00574)  |
+
 
 
 ##### 🎯 Training Strategies for Recurrent Reasoning
@@ -167,6 +169,7 @@ ___
 | **Can looped transformers learn to implement multi-step gradient descent for in-context learning?** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.08292) |
 | **Bypassing the exponential dependency: Looped transformers efficiently learn in-context by multi-step gradient descent** | arXiv | Oct 2024 | [Paper](https://arxiv.org/abs/2410.11268) |
 | **Disentangling memory and reasoning ability in large language models** | arXiv | Nov 2024 | [Paper](https://arxiv.org/abs/2411.13504) |
+| **LatentPrompt: Optimizing Promts in Latent Space** | arXiv | Aug 2025 | [Paper](https://arxiv.org/pdf/2508.02452) |
 
 ___
 
