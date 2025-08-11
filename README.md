@@ -156,6 +156,7 @@ ___
 | **Enhancing Auto-regressive Chain-of-Thought through Loop-Aligned Reasoning** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.08482) |
 | **Reasoning with latent thoughts: On the power of looped transformers** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.17416) |
 | **Seek in the Dark: Reasoning via Test-Time Instance-Level Policy Gradient in Latent Space** | arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.13308?) - [Code](https://github.com/bigai-nlco/LatentSeek) - [Project](https://bigai-nlco.github.io/LatentSeek/) |
+｜**Soft Thinking: Unlocking the Reasoning Potential of LLMs in Continuous Concept Space** ｜ arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.15778) [Code](https://github.com/eric-ai-lab/Soft-Thinking)
 
 
 ##### ✨ Applications and Capabilities
@@ -194,7 +195,8 @@ ___
 | **It's All Connected: A Journey Through Test-Time Memorization, Attentional Bias, Retention, and Online Optimization** | arXiv | Apr 2025 | [Paper](https://arxiv.org/abs/2504.13173) |
 | **Atlas: Learning to optimally memorize the context at test time** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.23735) |
 | **Soft Reasoning: Navigating Solution Spaces in Large Language Models through Controlled Embedding Exploration** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.24688) |
-| **Physics of Language Models: Part 4.1, Architecture Design and the Magic of Canon Layers**| SSRN | May 2025 | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5240330) - [Code](https://github.com/facebookresearch/PhysicsLM4) |
+
+> | **Physics of Language Models: Part 4.1, Architecture Design and the Magic of Canon Layers**| SSRN | May 2025 | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5240330) - [Code](https://github.com/facebookresearch/PhysicsLM4) |
  
 ##### 🎭 Training-induced Hidden-State Conversion
 | Title | Venue | Date | Links |
@@ -243,7 +245,7 @@ ___
 | **Embedding Trajectory for Out-of-Distribution Detection in Mathematical Reasoning** | NeurIPS 2024 | May 2024 | [Paper](https://arxiv.org/abs/2405.14039) - [Code](https://github.com/Alsace08/OOD-Math-Reasoning) |
 | **Loss landscape geometry reveals stagewise development of transformers** | Hi-DL 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2402.02364v2) |
 | **Hopping too late: Exploring the limitations of large language models on multi-hop queries** | arXiv | Jun 2024 | [Paper](https://arxiv.org/abs/2406.12775) |
-| **Distributional reasoning in llms: Parallel reasoning processes in multi-hop reasoning** | arXiv | Jun 2024 | [Paper](https://arxiv.org/abs/2406.13858) |
+| **Distributional reasoning in LLMs: Parallel reasoning processes in multi-hop reasoning** | arXiv | Jun 2024 | [Paper](https://arxiv.org/abs/2406.13858) |
 | **Unveiling Factual Recall Behaviors of Large Language Models through Knowledge Neurons** | arXiv | Aug 2024 | [Paper](https://arxiv.org/abs/2408.03247) |
 | **Unveiling induction heads: Provable training dynamics and feature learning in transformers** | arXiv | Sep 2024 | [Paper](https://arxiv.org/abs/2409.10559) |
 | **Investigating layer importance in large language models** | arXiv | Sep 2024 | [Paper](https://arxiv.org/abs/2409.14381) |
@@ -261,6 +263,7 @@ ___
 | **Unpacking Robustness in Inflectional Languages: Adversarial Evaluation and Mechanistic Insights** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.07856) |
 | **Do Language Models Use Their Depth Efficiently?** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.13898) |
 | **Void in Language Models** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.14467) |
+| **LLMs are Single-threaded Reasoners: Demystifying the Working Mechanism of Soft Thinking**| arXiv | Aug 2025 | [Paper](https://www.arxiv.org/abs/2508.03440) 
 ___
 
 #### 💻 Turing Completeness of Layer-Based Latent CoT
