@@ -301,6 +301,7 @@ ___
 | **Simple and effective masked diffusion language models** | NeurIPS 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2406.19509) - [Code](https://github.com/ssahoo04/MDLM) |
 | **Scaling up Masked Diffusion Models on Text** | arXiv | Oct 2024 | [Paper](https://arxiv.org/pdf/2406.07524) - [Project](https://s-sahoo.com/mdlm) |
 | **MMaDa: Multimodal large diffusion language models** | arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.15809) - [Project](https://github.com/Gen-Verse/MMaDA/) |
+| **Time Is a Feature: Exploiting Temporal Dynamics in Diffusion Language Models** | arXiv | Aug 2025 | [Paper](https://arxiv.org/abs/2508.09138) - [Code](https://github.com/aim-uofa/dLLM-MidTruth)|
 
 
 ##### ⬛ Masked Diffusion Models (With Cache)
