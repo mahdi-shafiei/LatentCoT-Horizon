@@ -369,6 +369,7 @@ ___
 - [Awesome-Latent-CoT](https://github.com/EIT-NLP/Awesome-Latent-CoT): a curated list of papers exploring latent chain-of-thought reasoning in LLMs.
 - [Awesome-Efficient-Reasoning](https://github.com/hemingkx/Awesome-Efficient-Reasoning): a curated list of works on making LLM reasoning cheaper and faster.
 - [Efficient Reasoning Models: A Survey](https://github.com/fscdc/Awesome-Efficient-Reasoning-Models): the companion repo to the survey, aggregating methods/benchmarks for “shorter, smaller, faster” reasoning models.
+- [Implicit Reasoning in Large Language Models: A Comprehensive Survey](https://github.com/digailab/awesome-llm-implicit-reasoning): a curated list of works on implicit reasoning in LLMs.
 
 ## ♥️ Contributors
 
