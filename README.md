@@ -119,8 +119,11 @@ ___
 | **Relaxed recursive transformers: Effective parameter sharing with layer-wise Lora** |ICLR 2025 | Oct 2024 | [Paper](https://arxiv.org/abs/2410.20672) |
 | **Byte Latent Transformer: Patches Scale Better Than Tokens** |ACL 2025 Outstanding Paper | Dec 2024 | [Paper](https://arxiv.org/abs/2412.09871) - [Code](https://github.com/facebookresearch/blt)|
 | **Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach** |ICLR 2025 | Feb 2025 | [Paper](https://arxiv.org/abs/2502.05171) - [Code](https://github.com/seal-rg/recurrent-pretraining)|
+| **LLM Pretraining with Continuous Concepts** |arXiv | Feb 2025 | [Paper](https://arxiv.org/pdf/2502.08524?) - [Code](https://github.com/facebookresearch/RAM/tree/main/projects/cocomix) |
 | **Pretraining Language Models to Ponder in Continuous Space** |arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.20674) - [Code](https://github.com/LUMIA-Group/PonderingLM) |
 | **Mixture-of-Recursions: Learning Dynamic Recursive Depths for Adaptive Token-Level Computation** |arXiv | Jul 2025 | [Paper](https://arxiv.org/pdf/2507.10524) - [Code](https://github.com/raymin0223/mixture_of_recursions) |
+
+
 
 ##### 🏋️ Training-induced Recurrence
 | Title | Venue | Date | Links |
@@ -152,12 +155,12 @@ ___
 | **From explicit cot to implicit cot: Learning to internalize cot step by step** | arXiv | May 2024 | [Paper](https://arxiv.org/abs/2405.14838) |
 | **On the inductive bias of stacking towards improving reasoning** | NeurIPS 2024 | Jun 2024 | [Paper](https://arxiv.org/abs/2406.03149) |
 | **Language Models are Hidden Reasoners: Unlocking Latent Reasoning Capabilities via Self-Rewarding** | arXiv | Nov 2024 | [Paper](https://arxiv.org/abs/2411.04282) - [Code](https://github.com/SalesforceAIResearch/LaTRO) |
-| **Training large language models to reason in a continuous latent space** | arXiv | Dec 2024 | [Paper](https://arxiv.org/abs/2412.06769) |
+| **Training large language models to reason in a continuous latent space** | COLM 2025 | Dec 2024 | [Paper](https://arxiv.org/abs/2412.06769) |
 | **Enhancing Auto-regressive Chain-of-Thought through Loop-Aligned Reasoning** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.08482) |
 | **Reasoning with latent thoughts: On the power of looped transformers** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.17416) |
 | **Seek in the Dark: Reasoning via Test-Time Instance-Level Policy Gradient in Latent Space** | arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.13308?) - [Code](https://github.com/bigai-nlco/LatentSeek) - [Project](https://bigai-nlco.github.io/LatentSeek/) |
 ｜**Soft Thinking: Unlocking the Reasoning Potential of LLMs in Continuous Concept Space** ｜ arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.15778) [Code](https://github.com/eric-ai-lab/Soft-Thinking)
-
+｜**Soft Tokens, Hard Truths** ｜ arXiv | Sep 2025 | [Paper](https://arxiv.org/pdf/2509.19170) 
 
 ##### ✨ Applications and Capabilities
 
