@@ -160,6 +160,7 @@ ___
 | **Reasoning with latent thoughts: On the power of looped transformers** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.17416) |
 | **Seek in the Dark: Reasoning via Test-Time Instance-Level Policy Gradient in Latent Space** | arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.13308?) - [Code](https://github.com/bigai-nlco/LatentSeek) - [Project](https://bigai-nlco.github.io/LatentSeek/) |
 ｜**Soft Thinking: Unlocking the Reasoning Potential of LLMs in Continuous Concept Space** ｜ arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.15778) [Code](https://github.com/eric-ai-lab/Soft-Thinking)
+｜**SIM-CoT: Supervised Implicit Chain-of-Thought** ｜ arXiv | Sep 2025 | [Paper](https://arxiv.org/pdf/2509.20317) [Code](https://github.com/InternLM/SIM-CoT)
 ｜**Soft Tokens, Hard Truths** ｜ arXiv | Sep 2025 | [Paper](https://arxiv.org/pdf/2509.19170) 
 
 ##### ✨ Applications and Capabilities
