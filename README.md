@@ -23,9 +23,9 @@
 
 This repository provides the papers mentioned in the survey "<a href="https://arxiv.org/abs/2507.06203">A Survey on Latent Reasoning</a>".
 
-<div align=center>
+<!-- <div align=center>
  <img src="src/outline.png" width="500px">
-</div>
+</div> -->
 
 ## 📑 Citation
 
@@ -39,6 +39,14 @@ If you find our survey useful for your research, please consider citing the foll
   year={2025}
 }
 ```
+
+<details open><summary>💡 We also have other generative projects that may interest you ✨. </summary><p>
+<!--  may -->
+
+> 🚀 [**Scaling Latent Reasoning via Looped Language Models**](https://arxiv.org/pdf/2510.25741) <br>
+> Rui-Jie Zhu, Zixuan Wang, Kai Hua etc. [Page](https://ouro-llm.github.io) [Model](https://huggingface.co/ByteDance/Ouro-1.4B) <br>
+> </p></details>
+
 
 ## 📣 Update News
 
@@ -113,7 +121,7 @@ ___
 
 | Title                                                        | Venue     | Date             | Links                                                        |
 | ------------------------------------------------------------ |---------- | ---------------- | ------------------------------------------------------------ |
-| **Universal transformers** | ICLR 2019 | Jul 2018 | [Paper](https://arxiv.org/abs/1807.03819) - [Code](https://github.com/andreamad8/Universal-Transformer-Pytorch) |
+| **Universal Transformers** | ICLR 2019 | Jul 2018 | [Paper](https://arxiv.org/abs/1807.03819) - [Code](https://github.com/andreamad8/Universal-Transformer-Pytorch) |
 | **CoTFormer: A Chain-of-Thought Driven Architecture with Budget-Adaptive Computation Cost at Inference** |ICLR 2025 | Oct 2023 | [Paper](https://arxiv.org/abs/2310.10845) |
 | **AlgoFormer: An Efficient Transformer Framework with Algorithmic Structures** |TMLR 2025 | Feb 2024 | [Paper](https://arxiv.org/abs/2402.13572) - [Code](https://github.com/chuanyang-Zheng/Algoformer)|
 | **Relaxed recursive transformers: Effective parameter sharing with layer-wise Lora** |ICLR 2025 | Oct 2024 | [Paper](https://arxiv.org/abs/2410.20672) |
@@ -145,6 +153,9 @@ ___
 | **Parallel Continuous Chain-of-Thought with Jacobi Iteration** | arXiv | Jun 2025 | [Paper](https://arxiv.org/abs/2506.18582) - [Code](https://github.com/whyNLP/PCCoT) |
 | **Think Silently, Think Fast: Dynamic Latent Compression of LLM Reasoning Chains** | arXiv | Jun 2025 | [Paper](https://arxiv.org/pdf/2505.16552) - [Code](https://github.com/xiaomi-research/colar) |
 | **SynAdapt: Learning Adaptive Reasoning in Large Language Models via Synthetic Continuous Chain-of-Thought** | arXiv | Aug 2025 | [Paper](https://arxiv.org/pdf/2508.00574)  |
+| **Encode, Think, Decode: Scaling test-time reasoning with recursive latent thoughts** | arXiv | Oct 2025 | [Paper](https://arxiv.org/pdf/2510.07358) |
+| **Parallel Loop Transformer for Efficient Test-Time Computation Scaling** | arXiv | Oct 2025 | [Paper](https://arxiv.org/pdf/2510.24824) |
+| **Scaling Latent Reasoning via Looped Language Models** | arXiv | Oct 2025 | [Paper](https://arxiv.org/pdf/2510.25741) - [Page](https://ouro-llm.github.io/) - [Code](https://ouro-llm.github.io/#) |
 
 
 
