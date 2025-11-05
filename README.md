@@ -170,9 +170,9 @@ ___
 | **Enhancing Auto-regressive Chain-of-Thought through Loop-Aligned Reasoning** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.08482) |
 | **Reasoning with latent thoughts: On the power of looped transformers** | arXiv | Feb 2025 | [Paper](https://arxiv.org/abs/2502.17416) |
 | **Seek in the Dark: Reasoning via Test-Time Instance-Level Policy Gradient in Latent Space** | arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.13308?) - [Code](https://github.com/bigai-nlco/LatentSeek) - [Project](https://bigai-nlco.github.io/LatentSeek/) |
-｜**Soft Thinking: Unlocking the Reasoning Potential of LLMs in Continuous Concept Space** ｜ arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.15778) [Code](https://github.com/eric-ai-lab/Soft-Thinking) |
-｜**SIM-CoT: Supervised Implicit Chain-of-Thought** ｜ arXiv | Sep 2025 | [Paper](https://arxiv.org/pdf/2509.20317) [Code](https://github.com/InternLM/SIM-CoT) |
-｜**SwiReasoning: Switch-Thinking in Latent and Explicit for Pareto-Superior Reasoning LLMs** ｜ arXiv | Oct 2025 | [Paper](https://arxiv.org/pdf/2510.05069) [Code](https://github.com/sdc17/SwiReasoning) [Project](https://swireasoning.github.io/) |
+| **Soft Thinking: Unlocking the Reasoning Potential of LLMs in Continuous Concept Space** | arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.15778) [Code](https://github.com/eric-ai-lab/Soft-Thinking) |
+| **SIM-CoT: Supervised Implicit Chain-of-Thought** | arXiv | Sep 2025 | [Paper](https://arxiv.org/pdf/2509.20317) [Code](https://github.com/InternLM/SIM-CoT) |
+| **SwiReasoning: Switch-Thinking in Latent and Explicit for Pareto-Superior Reasoning LLMs** | arXiv | Oct 2025 | [Paper](https://arxiv.org/pdf/2510.05069) [Code](https://github.com/sdc17/SwiReasoning) [Project](https://swireasoning.github.io/) |
 
 ##### ✨ Applications and Capabilities
 
