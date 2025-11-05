@@ -172,7 +172,7 @@ ___
 | **Seek in the Dark: Reasoning via Test-Time Instance-Level Policy Gradient in Latent Space** | arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.13308?) - [Code](https://github.com/bigai-nlco/LatentSeek) - [Project](https://bigai-nlco.github.io/LatentSeek/) |
 ｜**Soft Thinking: Unlocking the Reasoning Potential of LLMs in Continuous Concept Space** ｜ arXiv | May 2025 | [Paper](https://arxiv.org/pdf/2505.15778) [Code](https://github.com/eric-ai-lab/Soft-Thinking)
 ｜**SIM-CoT: Supervised Implicit Chain-of-Thought** ｜ arXiv | Sep 2025 | [Paper](https://arxiv.org/pdf/2509.20317) [Code](https://github.com/InternLM/SIM-CoT)
-｜**Soft Tokens, Hard Truths** ｜ arXiv | Sep 2025 | [Paper](https://arxiv.org/pdf/2509.19170) 
+｜**SwiReasoning: Switch-Thinking in Latent and Explicit for Pareto-Superior Reasoning LLMs** ｜ arXiv | Oct 2025 | [Paper](https://arxiv.org/pdf/2510.05069) [Code](https://github.com/sdc17/SwiReasoning) [Project](https://swireasoning.github.io/)
 
 ##### ✨ Applications and Capabilities
 
@@ -279,6 +279,7 @@ ___
 | **Do Language Models Use Their Depth Efficiently?** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.13898) |
 | **Void in Language Models** | arXiv | May 2025 | [Paper](https://arxiv.org/abs/2505.14467) |
 | **LLMs are Single-threaded Reasoners: Demystifying the Working Mechanism of Soft Thinking**| arXiv | Aug 2025 | [Paper](https://www.arxiv.org/abs/2508.03440) 
+| **Latent Chain-of-Thought? Decoding the Depth-Recurrent Transformer**| COLM Workshop | Sep 2025 | [Paper](https://arxiv.org/pdf/2507.02199) [Code](https://github.com/wenquanlu/huginn-latent-cot)
 ___
 
 #### 💻 Turing Completeness of Layer-Based Latent CoT
